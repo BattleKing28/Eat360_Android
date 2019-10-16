@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_transparent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/ok"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/close_btn"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/rounded_border"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Select_Distance"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/current_km"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/dist_km"
+                android:layout_toStartOf="@+id/dist_km"
+                android:gravity="center"
+                android:text="@string/km5"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dist_km"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="@string/km"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/km1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/km"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="@string/km100"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="@string/km"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:dsb_max="100"
+            app:dsb_min="0"
+            app:dsb_value="5dp"
+            app:dsb_progressColor="@color/blue"
+            app:dsb_trackColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center|left"
+            android:text="@string/another_location"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp">
+
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rounded_border_stroke"
+                android:hint="@string/search_hint_map"
+                android:imeActionLabel="Search"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="10dp"
+                android:paddingRight="65dp"
+                android:dropDownAnchor="@id/search_view"
+                android:popupBackground="@color/white"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:maxLines="1"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageButton
+                android:id="@+id/clear_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/close_btn"
+                android:layout_toLeftOf="@id/search_button"
+                android:visibility="gone"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <ImageButton
+                android:id="@+id/search_button"
+                style="@style/search"
+                android:layout_alignRight="@id/search_view"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

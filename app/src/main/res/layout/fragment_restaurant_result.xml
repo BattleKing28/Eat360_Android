@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_toLeftOf="@+id/image_timer"
+            android:layout_toStartOf="@+id/image_timer"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_border_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/radius"
+                android:layout_toStartOf="@+id/radius"
+                android:maxLines="3"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/radius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_timer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/timer"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/sel_marked_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/sel_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        <TextView
+            android:id="@+id/sel_cuisine"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_border_blue"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" />
+
+    </LinearLayout>
+
+
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:elevation="5dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/No_Search_Result"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+

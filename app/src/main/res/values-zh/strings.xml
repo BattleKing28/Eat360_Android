@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">另一个位置</string>
+    <string name="at">在</string>
+    <string name="back">背部</string>
+    <string name="Currency">币</string>
+    <string name="Description">描写</string>
+    <string name="Done">做完</string>
+    <string name="filter_result">过滤后的结果</string>
+    <string name="food_category">食品类</string>
+    <string name="food_cuisine">食品美食</string>
+    <string name="food_ingredient">食品成分</string>
+    <string name="food_name">食品名称</string>
+    <string name="go_to_menu">进入菜单</string>
+    <string name="Home_Page">主页</string>
+    <string name="in">在</string>
+    <string name="ingredients">配料</string>
+    <string name="km_kilometer">千米（公里）</string>
+    <string name="language">语言</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">位置</string>
+    <string name="Longitude">经度</string>
+    <string name="Map">图</string>
+    <string name="Menu">菜单</string>
+    <string name="mile">英里</string>
+    <string name="No_Search_Result">无搜索结果</string>
+    <string name="Please_Try_again">请再试一次</string>
+    <string name="QR_Code_Search">QR代码搜索</string>
+    <string name="Radius">范围</string>
+    <string name="Recommended">推荐</string>
+    <string name="Restaurant">餐馆</string>
+    <string name="restaurant_name">餐厅的名字</string>
+    <string name="restaurant_service">餐厅的服务</string>
+    <string name="restaurant_type">餐厅类型</string>
+    <string name="Search">搜</string>
+    <string name="Search_for">搜索</string>
+    <string name="Search_Near">搜索近</string>
+    <string name="Search_Result">搜索结果</string>
+    <string name="Select_Distance">选择距离</string>
+    <string name="Translate">译</string>
+    <string name="warning">警告</string>
+    <string name="around">周围</string>
+    <string name="error">错误</string>
+    <string name="food">食物</string>
+    <string name="category">种类</string>
+    <string name="no">不</string>
+    <string name="problem">困难</string>
+    <string name="cuisine">菜系</string>
+    <string name="restaurant">餐厅</string>
+    <string name="yes">是</string>
+    <string name="meal">餐食</string>
+
+    <string name="Connection_Problem">连接问题。</string>
+    <string name="Connection_Problem_Detail">应用程序无法连接到服务器。 请再试一次。</string>
+    <string name="Getting_current_location">获取当前位置</string>
+    <string name="Keyword">关键字</string>
+    <string name="Select_currency">选择货币</string>
+    <string name="Select_language">选择语言</string>
+    <string name="all_meal">所有的食物</string>
+    <string name="cancel">取消</string>
+    <string name="cannot_connect_internet">应用程序不能连接到互联网。请再试一次。</string>
+    <string name="ok">好</string>
+
+
+
+    <string name="search_hint_food">搜索食物</string>
+    <string name="search_hint_restaurant">搜索餐厅</string>
+    <string name="search_hint_menu">搜索菜单</string>
+    <string name="prompt_email">电子邮件地址</string>
+    <string name="prompt_country">国家</string>
+    <string name="prompt_city">市</string>
+    <string name="prompt_phone">电话号码</string>
+    <string name="prompt_name">名称</string>
+    <string name="prompt_surname">姓</string>
+    <string name="action_forgotpassword">忘记密码？</string>
+    <string name="action_sign_up">注册</string>
+    <string name="action_sign_in">签到</string>
+    <string name="signin_with">登陆使用</string>
+    <string name="register_now">新来的？现在注册。</string>
+    <string name="username">用户名</string>
+    <string name="title_activity_login">签到</string>
+    <string name="title_activity_register">注册</string>
+    <string name="categories">分类</string>
+    <string name="facilities">设备</string>
+    <string name="drinks">饮料</string>
+    <string name="continue_searching">继续搜索</string>
+    <string name="go">走!</string>
+    <string name="more_result">更多结果</string>
+    <string name="availablenow">现在有空</string>
+    <string name="open_time">开放时间</string>
+    <string name="break_time">休息时间</string>
+    <string name="closed_days">休息日</string>
+    <string name="e_mail_address">电子邮件地址</string>
+    <string name="contact_information">联系信息</string>
+    <string name="additional_info">附加信息</string>
+    <string name="address">地址</string>
+    <string name="confirm_desc">感谢您注册Eat360！为了完成您的注册，请点击您的注册，请点击我们发送给您的电子邮件中的确认链接。如果您没有收到电子邮件，请检查您的垃圾邮件文件夹。</string>
+    <string name="title_select_autocomplete">选择关键字</string>
+    <string name="select_autocomplete">请从自动填充中选择关键字以获取结果。</string>
+    <string name="title_enter_keyword">输入关键字</string>
+    <string name="body_enter_keyword">请输入要搜索的食品的关键字。</string>
+    <string name="qr_result">扫描结果</string>
+    <string name="qr_scan">QR码扫描</string>
+    <string name="alcoholdrinks">酒精饮料</string>
+    <string name="food_meal">食物餐</string>
+    <string name="update">更新</string>
+    <string name="enable">启用</string>
+    <string name="tag">标签</string>
+    <string name="contain">包含</string>
+    <string name="loading">载入中...</string>
+    <string name="nfc_tag">NFC标签</string>
+    <string name="menu_category_title">主菜</string>
+    <string name="Menu_underlined"><u>菜单</u></string>
+    <string name="help">帮帮我</string>
+    <string name="about">关于</string>
+    <string name="log_out">登出</string>
+    <string name="moreapps">更多应用程式</string>
+    <string name="search_hint_map">搜索地点</string>
+    <string name="select_category">选择类别</string>
+    <string name="select_server">选择服务器</string>
+    <string name="select_again">请重新选择</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">启用位置服务</string>
+    <string name="enable_location_detail">请启用位置服务以获取当前位置。</string>
+    <string name="no_geocoder_available">无地理编码器可用</string>
+    <string name="fetch_address">提取地址</string>
+    <string name="address_found">找到地址</string>
+    <string name="no_address_found">很抱歉，找不到地址</string>
+    <string name="service_not_available">很抱歉，该服务不可用</string>
+    <string name="no_location_data_provided">未提供位置数据</string>
+    <string name="invalid_lat_long_used">使用的纬度或经度无效</string>
+    <string name="gps_network_not_enabled">您的GPS似乎被禁用，该应用需要启用它。</string>
+    <string name="confirm_quit">您确定要退出吗？</string>
+    <string name="title_activity_confirm">非常感谢你！</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">此字段应大于3个字符</string>
+    <string name="error_invalid_email">此电子邮件地址无效</string>
+    <string name="error_invalid_password">此密码应大于6个字符</string>
+    <string name="error_incorrect_password">此密码不正确</string>
+    <string name="error_field_required">这是必填栏</string>
+    <string name="permission_rationale">需要联系人权限才能提供电子邮件达成。</string>
+
+</resources>
+
+
+

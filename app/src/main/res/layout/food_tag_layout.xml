@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tag_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/rounded_border_blue"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tag_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="3"
+        android:text="@string/tag"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/black" />
+
+    <ImageButton
+        android:id="@+id/close_tag"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/white_transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/close_white_btn"
+        tools:ignore="ContentDescription" />
+</LinearLayout>

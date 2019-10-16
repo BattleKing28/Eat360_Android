@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/more_menu_drawer"
+    android:layout_width="@dimen/navigation_drawer_width"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="end"
+    android:background="@drawable/rounded_righttop_white" >
+
+    <LinearLayout
+        android:id="@+id/menu_food_layout"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_above="@+id/more_menu_go_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/menu_tabs_food"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/more_tab_categories"
+                android:layout_weight="6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="@string/categories"/>
+
+            <LinearLayout
+                android:id="@+id/more_available"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/check02"
+                    android:scaleType="centerCrop"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/menu_tab_available"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/availablenow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/line_blue_1"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            tools:ignore="ContentDescription" />
+
+        <GridView
+            android:id="@+id/more_menu_gridview_food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:columnWidth="100dp"
+            android:stretchMode="columnWidth"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_drink_layout"
+        android:visibility="invisible"
+        android:layout_above="@+id/more_menu_go_button"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/menu_tabs_drink"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/more_tab_drinks"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="@string/drinks"/>
+
+            <ImageView
+                android:id="@+id/line_blue_2"
+                android:background="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                tools:ignore="ContentDescription" />
+
+            <GridView
+                android:id="@+id/more_menu_gridview_drink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:columnWidth="100dp"
+                android:stretchMode="columnWidth"
+                android:numColumns="2"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/line_blue_4"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/menu_tabs_alcohol"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/more_tab_alcohols"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="@string/alcoholdrinks"/>
+
+            <ImageView
+                android:id="@+id/line_blue_3"
+                android:background="@color/blue"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                tools:ignore="ContentDescription" />
+
+            <GridView
+                android:id="@+id/more_menu_gridview_alcohol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:columnWidth="100dp"
+                android:stretchMode="columnWidth"
+                android:numColumns="2"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/more_menu_go_button"
+        android:background="@color/blue"
+        android:text="@string/go"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

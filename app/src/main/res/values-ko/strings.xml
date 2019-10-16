@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">다른 위치</string>
+    <string name="at">에</string>
+    <string name="back">뒤로 가기</string>
+    <string name="Currency">통화</string>
+    <string name="Description">서술</string>
+    <string name="Done">완료</string>
+    <string name="filter_result">검색결과</string>
+    <string name="food_category">음식카테고리</string>
+    <string name="food_cuisine">음식료리</string>
+    <string name="food_ingredient">식품성분</string>
+    <string name="food_name">식품명</string>
+    <string name="go_to_menu">메뉴로 이동</string>
+    <string name="Home_Page">홈페지</string>
+    <string name="in">에</string>
+    <string name="ingredients">성분</string>
+    <string name="km_kilometer">키로메터(km)</string>
+    <string name="language">언어</string>
+    <string name="Latitude">위도</string>
+    <string name="Location">위치</string>
+    <string name="Longitude">경도</string>
+    <string name="Map">지도</string>
+    <string name="Menu">메뉴</string>
+    <string name="mile">마일</string>
+    <string name="No_Search_Result">검색결과가 없습니다.</string>
+    <string name="Please_Try_again">다시 시도하십시오.</string>
+    <string name="QR_Code_Search">QR 코드검색</string>
+    <string name="Radius">반경</string>
+    <string name="Recommended">추천</string>
+    <string name="Restaurant">식당</string>
+    <string name="restaurant_name">식당명</string>
+    <string name="restaurant_service">식당봉사</string>
+    <string name="restaurant_type">식당류형</string>
+    <string name="Search">검색</string>
+    <string name="Search_for">검색</string>
+    <string name="Search_Near">가까이에서 검색</string>
+    <string name="Search_Result">검색결과</string>
+    <string name="Select_Distance">거리선택</string>
+    <string name="Translate">번역</string>
+    <string name="warning">경고</string>
+    <string name="around">주위</string>
+    <string name="error">오유</string>
+    <string name="food">음식</string>
+    <string name="category">카테고리</string>
+    <string name="no">아니요</string>
+    <string name="problem">문제</string>
+    <string name="cuisine">료리</string>
+    <string name="restaurant">식당</string>
+    <string name="yes">예</string>
+    <string name="meal">식사</string>
+
+    <string name="Connection_Problem">련결에 문제가 있습니다.</string>
+    <string name="Connection_Problem_Detail">응용프로그람이 서버에 련결할수 없습니다. 다시 시도하십시오.</string>
+    <string name="Getting_current_location">현재 위치 얻기</string>
+    <string name="Keyword">예약어</string>
+    <string name="Select_currency">통화선택</string>
+    <string name="Select_language">언어선택</string>
+    <string name="all_meal">모든 식사</string>
+    <string name="cancel">취소</string>
+    <string name="cannot_connect_internet">응용프로그람은 인터네트에 련결할수 없습니다. 다시 시도하십시오.</string>
+    <string name="ok">확인</string>
+
+
+
+    <string name="search_hint_food">음식검색</string>
+    <string name="search_hint_restaurant">식당검</string>
+    <string name="search_hint_menu">메뉴검색</string>
+    <string name="prompt_email">전자메일주소</string>
+    <string name="prompt_country">나라</string>
+    <string name="prompt_city">시</string>
+    <string name="prompt_phone">전화번호</string>
+    <string name="prompt_name">이</string>
+    <string name="prompt_surname">성</string>
+    <string name="action_forgotpassword">암호를 잊으셨습니까?</string>
+    <string name="action_sign_up">새로 등록</string>
+    <string name="action_sign_in">가입</string>
+    <string name="signin_with">으로 가입</string>
+    <string name="register_now">여기가 처음이십니까? 지금 등록.</string>
+    <string name="username">사용자이름</string>
+    <string name="title_activity_login">가입</string>
+    <string name="title_activity_register">등록</string>
+    <string name="categories">카테고리</string>
+    <string name="facilities">시설</string>
+    <string name="drinks">을료</string>
+    <string name="continue_searching">계속 검색</string>
+    <string name="go">가!</string>
+    <string name="more_result">더 많은 결과</string>
+    <string name="availablenow">지금 가능</string>
+    <string name="open_time">오픈 시간</string>
+    <string name="break_time">휴식시간</string>
+    <string name="closed_days">휴식일</string>
+    <string name="e_mail_address">전자메일주소</string>
+    <string name="contact_information">련락처정보</string>
+    <string name="additional_info">추가적인 정보</string>
+    <string name="address">주소</string>
+    <string name="confirm_desc">Eat360에 등록해 주셔서 감사합니다! 등록을 완료하려면 등록을 클릭하십시오. 보내주신 전자메일의 확인링크를 클릭하십시오. 전자메일을 받지 못했다면 스팸 폴더를 확인하십시오.</string>
+    <string name="title_select_autocomplete">예약어선택</string>
+    <string name="select_autocomplete">검색결과를 얻으려면 자동완성에서 예약어를 선택하십시오.</string>
+    <string name="title_enter_keyword">예약어압력</string>
+    <string name="body_enter_keyword">음식검색을 위해 예약어를 입력하십시오.</string>
+    <string name="qr_result">검색결과</string>
+    <string name="qr_scan">QR코드검색</string>
+    <string name="alcoholdrinks">알콜음료</string>
+    <string name="food_meal">음식</string>
+    <string name="update">갱신</string>
+    <string name="enable">활성화</string>
+    <string name="tag">태그</string>
+    <string name="contain">포함</string>
+    <string name="loading">적재중...</string>
+    <string name="nfc_tag">NFC태그</string>
+    <string name="menu_category_title">주음식</string>
+    <string name="Menu_underlined"><u>메뉴</u></string>
+    <string name="help">도움말</string>
+    <string name="about">앱정보</string>
+    <string name="log_out">가입취소</string>
+    <string name="moreapps">More apps from </string>
+    <string name="search_hint_map">장소검샥</string>
+    <string name="select_category">카테고리검색</string>
+    <string name="select_server">봉사기선택</string>
+    <string name="select_again">다시 선택하십시오.</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">위치서비스 사용</string>
+    <string name="enable_location_detail">현재 위치를 얻으려면 위치서비스를 사용하십시오.</string>
+    <string name="no_geocoder_available">가능한 위치정보 없음</string>
+    <string name="fetch_address">주소 가져오기</string>
+    <string name="address_found">주소가 발견되였습니다.</string>
+    <string name="no_address_found">죄송합니다. 주소를 찾을수 없습니다.</string>
+    <string name="service_not_available">죄송합니다. 서비스를 사용할수 없습니다.</string>
+    <string name="no_location_data_provided">제공된 위치자료가 없습니다.</string>
+    <string name="invalid_lat_long_used">사용된 위도 또는 경도가 잘못되였습니다.</string>
+    <string name="gps_network_not_enabled">GPS가 사용이 중지된것 같습니다. 앱에서 사용하도록 설정해야 합니다.</string>
+    <string name="confirm_quit">정말 탈퇴하시겠습니까?</string>
+    <string name="title_activity_confirm">대단히 감사합니다!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">이 입력란은 3문자 이상이여야 합니다.</string>
+    <string name="error_invalid_email">전자메일주소는 유효하지 않습니다.</string>
+    <string name="error_invalid_password">암호는 6문자 이상이여야 합니다.</string>
+    <string name="error_incorrect_password">암호가 틀렸습니다.</string>
+    <string name="error_field_required">이 마당은 필수적입니다.</string>
+    <string name="permission_rationale">전자메일 완료를 제공하려면 연락처 사용권한이 필요합니다.</string>
+
+</resources>
+
+
+

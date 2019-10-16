@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">موقع آخر</string>
+    <string name="at">في</string>
+    <string name="back">إلى الوراء</string>
+    <string name="Currency">عملة</string>
+    <string name="Description">وصف</string>
+    <string name="Done">فعله</string>
+    <string name="filter_result">تصفية نتائج</string>
+    <string name="food_category">فئة الأغذية</string>
+    <string name="food_cuisine">المطبخ الغذاء</string>
+    <string name="food_ingredient">المكونات الغذائية</string>
+    <string name="food_name">اسم الغذاء</string>
+    <string name="go_to_menu">انتقل إلى القائمة</string>
+    <string name="Home_Page">الصفحة الرئيسية</string>
+    <string name="in">في</string>
+    <string name="ingredients">المكونات</string>
+    <string name="km_kilometer">كم (كم)</string>
+    <string name="language">لغة</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">موقع</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">خريطة</string>
+    <string name="Menu">قائمة الطعام</string>
+    <string name="mile">ميل</string>
+    <string name="No_Search_Result">لا نتائج البحث</string>
+    <string name="Please_Try_again">حاول مرة اخرى</string>
+    <string name="QR_Code_Search">QR كود البحث</string>
+    <string name="Radius">نصف القطر</string>
+    <string name="Recommended">موصى به</string>
+    <string name="Restaurant">مطعم</string>
+    <string name="restaurant_name">اسم المطعم</string>
+    <string name="restaurant_service">خدمة المطاعم</string>
+    <string name="restaurant_type">نوع المطعم</string>
+    <string name="Search">بحث</string>
+    <string name="Search_for">بحث عن</string>
+    <string name="Search_Near">بحث الأدنى</string>
+    <string name="Search_Result">نتيجة البحث</string>
+    <string name="Select_Distance">اختر القطر</string>
+    <string name="Translate">ترجم</string>
+    <string name="warning">تحذير</string>
+    <string name="around">حي</string>
+    <string name="error">خطأ</string>
+    <string name="food">طعام</string>
+    <string name="category">فئة</string>
+    <string name="no">لا</string>
+    <string name="problem">مشكلة</string>
+    <string name="cuisine">مطبخ</string>
+    <string name="restaurant">مطعم</string>
+    <string name="yes">نعم</string>
+    <string name="meal">وجبة</string>
+
+    <string name="Connection_Problem">مشكلة الاتصال.</string>
+    <string name="Connection_Problem_Detail">التطبيق لا يمكن الاتصال بالخادم. حاول مرة اخرى.</string>
+    <string name="Getting_current_location">الحصول على الموقع الحالي</string>
+    <string name="Keyword">الكلمات الرئيسية</string>
+    <string name="Select_currency">حدد العملة</string>
+    <string name="Select_language">حدد اللغة</string>
+    <string name="all_meal">جميع الوجبات</string>
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="cannot_connect_internet">التطبيق لا يمكن الاتصال بإنترنت. الرجاء المحاولة مرة أخرى.</string>
+    <string name="ok">حسنا</string>
+
+
+
+    <string name="search_hint_food">البحث عن الغذاء</string>
+    <string name="search_hint_restaurant">البحث عن مطعم</string>
+    <string name="search_hint_menu">البحث عن القائمة</string>
+    <string name="prompt_email">عنوان البريد الإلكتروني</string>
+    <string name="prompt_country">بلد</string>
+    <string name="prompt_city">مدينة</string>
+    <string name="prompt_phone">رقم الهاتف</string>
+    <string name="prompt_name">اسم</string>
+    <string name="prompt_surname">لقب</string>
+    <string name="action_forgotpassword">هل نسيت كلمة المرور؟</string>
+    <string name="action_sign_up">سجل</string>
+    <string name="action_sign_in">تسجيل الدخول</string>
+    <string name="signin_with">تسجيل الدخول ب</string>
+    <string name="register_now">جديد هنا؟ سجل الان.</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="title_activity_register">التسجيل</string>
+    <string name="categories">الاقسام</string>
+    <string name="facilities">مرافق</string>
+    <string name="drinks">مشروبات</string>
+    <string name="continue_searching">مواصلة البحث</string>
+    <string name="go">اذهب!</string>
+    <string name="more_result">زيادة في النتيجة</string>
+    <string name="availablenow">متوفر في الوقت الحاضر</string>
+    <string name="open_time">وقت متاح</string>
+    <string name="break_time">فترة إستراحة</string>
+    <string name="closed_days">أيام مغلقة</string>
+    <string name="e_mail_address">عنوان البريد الإلكتروني</string>
+    <string name="contact_information">معلومات الاتصال</string>
+    <string name="additional_info">معلومات إضافية</string>
+    <string name="address">عنوان</string>
+    <string name="confirm_desc">شكرا لتسجيلك في Eat360! من أجل إتمام عملية التسجيل، يرجى الضغط على التسجيل، يرجى الضغط على رابط التأكيد في رسالة البريد الإلكتروني التي أرسلنا لك. إذا لم تكن قد تلقت رسالة بريد إلكتروني، يرجى مراجعة مجلد الرسائل غير المرغوب فيها.</string>
+    <string name="title_select_autocomplete">اختر الكلمة</string>
+    <string name="select_autocomplete">الرجاء تحديد الكلمة من الإكمال التلقائي للحصول على نتائج.</string>
+    <string name="title_enter_keyword">أدخل الكلمة المفتاحية</string>
+    <string name="body_enter_keyword">الرجاء إدخال الكلمة للأغذية للبحث.</string>
+    <string name="qr_result">نتائج مسح</string>
+    <string name="qr_scan">مسح رمز الاستجابة السريعة</string>
+    <string name="alcoholdrinks">المشروبات الكحولية</string>
+    <string name="food_meal">وجبة طعام</string>
+    <string name="update">تحديث</string>
+    <string name="enable">تمكين</string>
+    <string name="tag">بطاقة</string>
+    <string name="contain">يحتوي</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="nfc_tag">العلامة NFC</string>
+    <string name="menu_category_title">الطبق الرئيسي</string>
+    <string name="Menu_underlined"><u>قائمة طعام</u></string>
+    <string name="help">مساعدة</string>
+    <string name="about">حول</string>
+    <string name="log_out">الخروج</string>
+    <string name="moreapps">المزيد من التطبيقات من</string>
+    <string name="search_hint_map">البحث عن الأماكن</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="select_server">حدد الخادم</string>
+    <string name="select_again">الرجاء تحديد مرة أخرى</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">تمكين الموقع خدمة</string>
+    <string name="enable_location_detail">يرجى تمكين خدمة الموقع للحصول على الموقع الحالي.</string>
+    <string name="no_geocoder_available">لا ترميز المناطق الجغرافية متاح</string>
+    <string name="fetch_address">جلب عنوان</string>
+    <string name="address_found">عنوان جدت</string>
+    <string name="no_address_found">عذرا، لم يتم العثور على عنوان</string>
+    <string name="service_not_available">عذرا، لا تتوفر الخدمة</string>
+    <string name="no_location_data_provided">لا توجد بيانات موقع المقدمة</string>
+    <string name="invalid_lat_long_used">العرض غير صالح أو العرض المستخدمة</string>
+    <string name="gps_network_not_enabled">يبدو GPS الخاص بك ليتم تعطيلها، التطبيق يحتاج إلى تمكينه.</string>
+    <string name="confirm_quit">هل أنت متأكد من أن يترك؟</string>
+    <string name="title_activity_confirm">شكرا جزيلا!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">وينبغي أن يكون هذا المجال أكثر من 3 أحرف</string>
+    <string name="error_invalid_email">عنوان البريد الإلكتروني هذا غير صالح</string>
+    <string name="error_invalid_password">يجب أن تكون كلمة المرور هذه لفترة أطول من 6 أحرف</string>
+    <string name="error_incorrect_password">هذه كلمة المرور غير صحيحة</string>
+    <string name="error_field_required">هذه الخانة مطلوبه</string>
+    <string name="permission_rationale">هناك حاجة إلى صلات الأذونات لتوفير الاكمال البريد الإلكتروني.</string>
+
+</resources>
+
+
+

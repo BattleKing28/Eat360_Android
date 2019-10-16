@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">מיקום אחר</string>
+    <string name="at">ב</string>
+    <string name="back">חזור</string>
+    <string name="Currency">מטבע</string>
+    <string name="Description">תיאור</string>
+    <string name="Done">בוצע</string>
+    <string name="filter_result">תוצאת מסנן</string>
+    <string name="food_category">קטגוריה מזון</string>
+    <string name="food_cuisine">מטבח אוכל</string>
+    <string name="food_ingredient">מרכיב מזון</string>
+    <string name="food_name">שם מזון</string>
+    <string name="go_to_menu">ללכת לתפריט</string>
+    <string name="Home_Page">דף הבית</string>
+    <string name="in">ב</string>
+    <string name="ingredients">מרכיבים</string>
+    <string name="km_kilometer">קילומטר (קילומטר)</string>
+    <string name="language">שפה</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">מיקום</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">מפה</string>
+    <string name="Menu">תפריט</string>
+    <string name="mile">מייל</string>
+    <string name="No_Search_Result">אין תוצאות חיפוש</string>
+    <string name="Please_Try_again">בבקשה נסה שוב</string>
+    <string name="QR_Code_Search">חיפוש קוד QR</string>
+    <string name="Radius">רדיוס</string>
+    <string name="Recommended">מומלץ</string>
+    <string name="Restaurant">מסעדה</string>
+    <string name="restaurant_name">שם מסעדה</string>
+    <string name="restaurant_service">שירות במסעדה</string>
+    <string name="restaurant_type">סוג המסעדה</string>
+    <string name="Search">חיפוש</string>
+    <string name="Search_for">לחפש</string>
+    <string name="Search_Near">חיפוש קרוב</string>
+    <string name="Search_Result">תוצאות חיפוש</string>
+    <string name="Select_Distance">מרחק בחר</string>
+    <string name="Translate">תרגום</string>
+    <string name="warning">אזהרה</string>
+    <string name="around">מסביב</string>
+    <string name="error">שגיאה</string>
+    <string name="food">אוכל</string>
+    <string name="category">קטגוריה</string>
+    <string name="no">לא</string>
+    <string name="problem">בעיה</string>
+    <string name="cuisine">מאכל</string>
+    <string name="restaurant">מסעדה</string>
+    <string name="yes">כן</string>
+    <string name="meal">ארוחה</string>
+
+    <string name="Connection_Problem">בעיה בחיבור.</string>
+    <string name="Connection_Problem_Detail">יישום לא יכול להתחבר לשרת. בבקשה נסה שוב.</string>
+    <string name="Getting_current_location">מקבל מיקום הנוכחי</string>
+    <string name="Keyword">מילת מפתח</string>
+    <string name="Select_currency">בחר מטבע</string>
+    <string name="Select_language">בחר שפה</string>
+    <string name="all_meal">כל הארוחות</string>
+    <string name="cancel">ביטול</string>
+    <string name="cannot_connect_internet">היישום אינו יכול להתחבר לאינטרנט. נא נסה שוב.</string>
+    <string name="ok">אוקיי</string>
+
+
+
+    <string name="search_hint_food">חיפוש עבור מזון</string>
+    <string name="search_hint_restaurant">חיפוש עבור מסעדה</string>
+    <string name="search_hint_menu">חיפוש עבור תפריט</string>
+    <string name="prompt_email">כתובת דוא"ל</string>
+    <string name="prompt_country">מדינה</string>
+    <string name="prompt_city">עִיר</string>
+    <string name="prompt_phone">מספר טלפון</string>
+    <string name="prompt_name">שֵׁם</string>
+    <string name="prompt_surname">שֵׁם מִשׁפָּחָה</string>
+    <string name="action_forgotpassword">שכחת את הסיסמא?</string>
+    <string name="action_sign_up">הירשם</string>
+    <string name="action_sign_in">היכנס</string>
+    <string name="signin_with">להתחבר עם</string>
+    <string name="register_now">חדש פה? הירשם עכשיו.</string>
+    <string name="username">שם משתמש</string>
+    <string name="title_activity_login">היכנס</string>
+    <string name="title_activity_register">הַרשָׁמָה</string>
+    <string name="categories">קטגוריות</string>
+    <string name="facilities">מתחם</string>
+    <string name="drinks">מַשׁקָאוֹת</string>
+    <string name="continue_searching">להמשיך בחיפוש</string>
+    <string name="go">ללכת!</string>
+    <string name="more_result">תוצאה נוספת</string>
+    <string name="availablenow">זמין כעת</string>
+    <string name="open_time">זמן הפתיחה</string>
+    <string name="break_time">הפסקה</string>
+    <string name="closed_days">ימים סגורים</string>
+    <string name="e_mail_address">כתובת דוא"ל</string>
+    <string name="contact_information">פרטי התקשרות</string>
+    <string name="additional_info">מידע נוסף</string>
+    <string name="address">כתובת</string>
+    <string name="confirm_desc">תודה שנרשם על Eat360! על מנת להשלים את ההרשמה שלך, אנא לחץ על הרישום שלך, אנא לחץ על קישור האישור בדוא"ל ששלחנו אליך. אם לא קיבלת דוא"ל, אנא בדוק את תיקיית דואר הזבל שלך.</string>
+    <string name="title_select_autocomplete">בחר מילת מפתח</string>
+    <string name="select_autocomplete">אנא בחר מילות מפתח מההשלמה האוטומטית כדי לקבל תוצאות.</string>
+    <string name="title_enter_keyword">הכנס מילת מפתח</string>
+    <string name="body_enter_keyword">נא להזין מילות מפתח עבור מזונות לחפש.</string>
+    <string name="qr_result">תוצאות סריקה</string>
+    <string name="qr_scan">סריקת קוד QR</string>
+    <string name="alcoholdrinks">משקאות אלכוהול</string>
+    <string name="food_meal">ארוחת מזון</string>
+    <string name="update">עדכון</string>
+    <string name="enable">לְאַפשֵׁר</string>
+    <string name="tag">תָג</string>
+    <string name="contain">לְהַכִיל</string>
+    <string name="loading">טוען...</string>
+    <string name="nfc_tag">תג NFC</string>
+    <string name="menu_category_title">מנה עיקרית</string>
+    <string name="Menu_underlined"><u>תַפרִיט</u></string>
+    <string name="help">עֶזרָה</string>
+    <string name="about">על אודות</string>
+    <string name="log_out">להתנתק</string>
+    <string name="moreapps">אפליקציות נוספות של מ</string>
+    <string name="search_hint_map">חפש מקומות</string>
+    <string name="select_category">בחר קטגוריה</string>
+    <string name="select_server">שרת בחר</string>
+    <string name="select_again">אנא בחר שוב</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">ולהפעיל שירות מיקום</string>
+    <string name="enable_location_detail">אנא אפשר שירות מיקום לקבל את המיקום הנוכחי.</string>
+    <string name="no_geocoder_available">אין Geocoder זמין</string>
+    <string name="fetch_address">תביא כתובת</string>
+    <string name="address_found">מצא כתובת</string>
+    <string name="no_address_found">סליחה, לא נמצאה כתובת</string>
+    <string name="service_not_available">מצטערים, השירות אינו זמין</string>
+    <string name="no_location_data_provided">אין נתונים בנושא מיקום</string>
+    <string name="invalid_lat_long_used">רוחב או אורך לא חוקיים להשתמש</string>
+    <string name="gps_network_not_enabled">נראה שה- GPS שלך כמבוטל, האפליקציה צריכה להפעיל אותו.</string>
+    <string name="confirm_quit">האם אתה בטוח שברצונך לצאת?</string>
+    <string name="title_activity_confirm">תודה רבה לך!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">שדה זה צריך להיות יותר מ -3 תווים</string>
+    <string name="error_invalid_email">כתובת דוא"ל זו אינה חוקית</string>
+    <string name="error_invalid_password">סיסמה זו צריכה להיות יותר מ -6 תווים</string>
+    <string name="error_incorrect_password">סיסמה זו אינה נכונה</string>
+    <string name="error_field_required">זהו שדה חובה</string>
+    <string name="permission_rationale">הרשאות מגעים נדרשות למתן שלמות הדוא"ל.</string>
+
+</resources>
+
+
+

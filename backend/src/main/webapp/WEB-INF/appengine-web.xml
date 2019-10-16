@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>menu360-994</application>
+    <version>1</version>
+    <threadsafe>true</threadsafe>
+
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties" />
+        <property name="gcm.api.key" value="AIzaSyAL81Orh3O8tpZam6D0YuRrwXZwJqapx2U" />
+    </system-properties>
+</appengine-web-app>

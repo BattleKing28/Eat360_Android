@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/about_time_title"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_title0" />
+
+                <TextView
+                    android:text="@string/about_time_detail"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_detail0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    app:srcCompat="@drawable/busines_img1"
+                    android:id="@+id/about_assets1"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:text="@string/about_focused_title"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_title1" />
+
+                <TextView
+                    android:text="@string/about_focused_detail"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_detail1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    app:srcCompat="@drawable/busines_img2"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/about_assets2"
+                    android:adjustViewBounds="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:text="@string/about_budget_title"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_title2" />
+
+                <TextView
+                    android:text="@string/about_budget_detail"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_detail2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    app:srcCompat="@drawable/busines_img3"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/about_assets3"
+                    android:adjustViewBounds="true"
+                    tools:ignore="ContentDescription" />
+
+
+                <TextView
+                    android:text="@string/about_partner_title"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_title3" />
+
+                <TextView
+                    android:text="@string/about_partner_detail"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_detail3" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

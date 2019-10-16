@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/detail_opentime_timelist"
+            android:layout_width="match_parent"
+            android:layout_height="280dp" />
+
+        <ImageView
+            android:background="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/detail_opentime_closeday_title"
+            android:text="@string/closed_days"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ImageView
+            android:background="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RelativeLayout
+            android:id="@+id/detail_opentime_closeday_pager"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="5dp" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/closeday_pager"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_above="@+id/closeday_indicator"
+                android:layout_alignParentTop="true" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/closeday_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                app:centered="true"
+                app:fillColor="#0189CA"
+                app:pageColor="#FFFFFF"
+                app:snap="false" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

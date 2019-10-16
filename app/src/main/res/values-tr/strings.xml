@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">Başka Yer</string>
+    <string name="at">at</string>
+    <string name="back">sırt</string>
+    <string name="Currency">Para</string>
+    <string name="Description">Açıklama</string>
+    <string name="Done">Bitti</string>
+    <string name="filter_result">filtre Sonucu</string>
+    <string name="food_category">gıda kategorisinde</string>
+    <string name="food_cuisine">gıda mutfağı</string>
+    <string name="food_ingredient">gıda madde</string>
+    <string name="food_name">gıda adı</string>
+    <string name="go_to_menu">menüsüne gidin</string>
+    <string name="Home_Page">Ana Sayfa</string>
+    <string name="in">içinde</string>
+    <string name="ingredients">Malzemeler</string>
+    <string name="km_kilometer">km (kilometre)</string>
+    <string name="language">lisan</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">konum</string>
+    <string name="Longitude">boylam</string>
+    <string name="Map">Harita</string>
+    <string name="Menu">menü</string>
+    <string name="mile">mil</string>
+    <string name="No_Search_Result">Hiçbir Arama Sonucu</string>
+    <string name="Please_Try_again">Lütfen tekrar deneyin</string>
+    <string name="QR_Code_Search">QR Code Search</string>
+    <string name="Radius">yarıçap</string>
+    <string name="Recommended">Tavsiye edilen</string>
+    <string name="Restaurant">Restoran</string>
+    <string name="restaurant_name">restoran adı</string>
+    <string name="restaurant_service">restoran hizmeti</string>
+    <string name="restaurant_type">restoran türü</string>
+    <string name="Search">aramak</string>
+    <string name="Search_for">Aramak</string>
+    <string name="Search_Near">Arama yakınlarında</string>
+    <string name="Search_Result">Arama sonuçları</string>
+    <string name="Select_Distance">seçin Mesafe</string>
+    <string name="Translate">çevirmek</string>
+    <string name="warning">uyarı</string>
+    <string name="around">civar</string>
+    <string name="error">hata</string>
+    <string name="food">Yiyecek</string>
+    <string name="category">Kategori</string>
+    <string name="no">hayır</string>
+    <string name="problem">problem</string>
+    <string name="cuisine">Mutfak</string>
+    <string name="restaurant">restaurant</string>
+    <string name="yes">evet</string>
+    <string name="meal">Yemek</string>
+
+    <string name="Connection_Problem">Bağlantı sorunu.</string>
+    <string name="Connection_Problem_Detail">Uygulama sunucusuna bağlanamıyor. Lütfen tekrar deneyin.</string>
+    <string name="Getting_current_location">Geçerli konumunuzu alma</string>
+    <string name="Keyword">Anahtar kelime</string>
+    <string name="Select_currency">Para birimi seçin</string>
+    <string name="Select_language">Dil seçin</string>
+    <string name="all_meal">tüm yemek</string>
+    <string name="cancel">İptal</string>
+    <string name="cannot_connect_internet">Uygulama Internet\'e bağlanamıyor. Lütfen yeniden deneyin.</string>
+    <string name="ok">Tamam</string>
+
+
+
+    <string name="search_hint_food">Yiyecek ara</string>
+    <string name="search_hint_restaurant">Restoran ara</string>
+    <string name="search_hint_menu">Menü ara</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_country">Ülke</string>
+    <string name="prompt_city">Şehir</string>
+    <string name="prompt_phone">Telefon numarası</string>
+    <string name="prompt_name">İsim</string>
+    <string name="prompt_surname">Soyadı</string>
+    <string name="action_forgotpassword">Parolanızı mı unuttunuz?</string>
+    <string name="action_sign_up">Kaydol</string>
+    <string name="action_sign_in">Oturum aç</string>
+    <string name="signin_with">Şununla giriş yap</string>
+    <string name="register_now">Burada yeni? Şimdi üye Ol.</string>
+    <string name="username">kullanıcı adı</string>
+    <string name="title_activity_login">OTURUM AÇ</string>
+    <string name="title_activity_register">Kayıt</string>
+    <string name="categories">Kategoriler</string>
+    <string name="facilities">Tesisler</string>
+    <string name="drinks">İçecekler</string>
+    <string name="continue_searching">Aramaya Devam Et</string>
+    <string name="go">GİTMEK!</string>
+    <string name="more_result">Daha fazla sonuç</string>
+    <string name="availablenow">Şu an müsait</string>
+    <string name="open_time">Açık Zaman</string>
+    <string name="break_time">Mola</string>
+    <string name="closed_days">Kapanmış günler</string>
+    <string name="e_mail_address">E-mail</string>
+    <string name="contact_information">İletişim bilgileri</string>
+    <string name="additional_info">İlave bilgi</string>
+    <string name="address">Adres</string>
+    <string name="confirm_desc">Eat360\'a kaydolduğunuz için teşekkür ederiz! Kayıt işleminizi tamamlamak için lütfen kaydınızı tıklayınız, lütfen size gönderdiğimiz e-postadaki onay bağlantısını tıklayın. E-posta almadıysanız lütfen spam klasörünüzü kontrol edin.</string>
+    <string name="title_select_autocomplete">Anahtar kelimeyi seç</string>
+    <string name="select_autocomplete">Lütfen sonuç almak için otomatik tamamlamadan gelen anahtar kelimeyi seçin.</string>
+    <string name="title_enter_keyword">Anahtar kelimeyi gir</string>
+    <string name="body_enter_keyword">Lütfen aranacak gıdalar için anahtar kelime girin.</string>
+    <string name="qr_result">Tarama sonuçları</string>
+    <string name="qr_scan">QR kod taraması</string>
+    <string name="alcoholdrinks">Alkollü içecekler</string>
+    <string name="food_meal">Yemek yemek</string>
+    <string name="update">güncelleştirme</string>
+    <string name="enable">Etkinleştirmek</string>
+    <string name="tag">Etiket</string>
+    <string name="contain">Ihtiva</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="nfc_tag">NFC etiketi</string>
+    <string name="menu_category_title">Ana yemek</string>
+    <string name="Menu_underlined"><u>MENÜ</u></string>
+    <string name="help">yardım et</string>
+    <string name="about">hakkında</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="moreapps">Adlı kullanıcıdan daha fazla uygulama</string>
+    <string name="search_hint_map">Yerleri ara</string>
+    <string name="select_category">Kategori seç</string>
+    <string name="select_server">Sunucu seç</string>
+    <string name="select_again">Lütfen tekrar seçin</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">Konum Hizmetini Etkinleştir</string>
+    <string name="enable_location_detail">Bulunduğunuz yer bulmak için lütfen Konum servisini etkinleştirin.</string>
+    <string name="no_geocoder_available">Coğrafi kodlayıcı yok</string>
+    <string name="fetch_address">Adresini getir</string>
+    <string name="address_found">Adres bulundu</string>
+    <string name="no_address_found">Üzgünüz, adres bulunamadı</string>
+    <string name="service_not_available">Üzgünüz, hizmet mevcut değil</string>
+    <string name="no_location_data_provided">Konum verisi sağlanmadı</string>
+    <string name="invalid_lat_long_used">Geçersiz enlem veya boylam kullanıldı</string>
+    <string name="gps_network_not_enabled">GPS\'iniz devre dışı gibi görünüyor, uygulamanın etkinleştirmesi gerekiyor.</string>
+    <string name="confirm_quit">Bırakmaktan emin misin?</string>
+    <string name="title_activity_confirm">Çok teşekkür ederim!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">Bu alan 3 karakterden uzun olmalıdır</string>
+    <string name="error_invalid_email">Bu e-posta adresi geçersiz</string>
+    <string name="error_invalid_password">Bu şifre 6 karakterden uzun olmalıdır</string>
+    <string name="error_incorrect_password">Bu şifre yanlış</string>
+    <string name="error_field_required">Bu alan gereklidir</string>
+    <string name="permission_rationale">E-posta tamamlamalarını sağlamak için Kişiler izinleri gereklidir.</string>
+
+</resources>
+
+
+

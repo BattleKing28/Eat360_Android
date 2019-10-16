@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">Other Location</string>
+    <string name="at">at</string>
+    <string name="back">Back</string>
+    <string name="Currency">Currency</string>
+    <string name="Description">Description</string>
+    <string name="Done">Done</string>
+    <string name="filter_result">Filter result</string>
+    <string name="food_category">Food category</string>
+    <string name="food_cuisine">Food cuisine</string>
+    <string name="food_ingredient">Food ingredient</string>
+    <string name="food_name">Food name</string>
+    <string name="go_to_menu">go to menu</string>
+    <string name="Home_Page">Home page</string>
+    <string name="in">in</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="km_kilometer">km (kilometer)</string>
+    <string name="language">Language</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">Location</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">Map</string>
+    <string name="Menu">Menu</string>
+    <string name="mile">mile</string>
+    <string name="No_Search_Result">No results found</string>
+    <string name="Please_Try_again">Please, Try again</string>
+    <string name="QR_Code_Search">QR code search</string>
+    <string name="Radius">Radius</string>
+    <string name="Recommended">Recommended</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="restaurant_name">restaurant name</string>
+    <string name="restaurant_service">restaurant service</string>
+    <string name="restaurant_type">restaurant type</string>
+    <string name="Search">Search</string>
+    <string name="Search_for">Search for</string>
+    <string name="Search_Near">Search near</string>
+    <string name="Search_Result">Search result</string>
+    <string name="Select_Distance">Select distance:</string>
+    <string name="Translate">Translate</string>
+    <string name="warning">warning</string>
+    <string name="around">around</string>
+    <string name="error">error</string>
+    <string name="food">food</string>
+    <string name="category">Category</string>
+    <string name="no">no</string>
+    <string name="problem">problem</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="restaurant">restaurant</string>
+    <string name="yes">yes</string>
+    <string name="meal">meal</string>
+
+
+    <string name="Connection_Problem">Connection Problem.</string>
+    <string name="Connection_Problem_Detail">Application can\'t connect to server. Please try again.</string>
+    <string name="Getting_current_location">Getting current location</string>
+    <string name="Keyword">Keyword</string>
+    <string name="Select_currency">Select currency</string>
+    <string name="Select_language">Select language</string>
+    <string name="all_meal">all meals</string>
+    <string name="cancel">CANCEL</string>
+    <string name="cannot_connect_internet">Application can\'t connect to the internet. Please try again.</string>
+    <string name="ok">OK</string>
+
+
+
+    <string name="search_hint_food">Search for food</string>
+    <string name="search_hint_restaurant">Search for restaurant</string>
+    <string name="search_hint_menu">Search for menu</string>
+    <string name="prompt_email">E-mail address</string>
+    <string name="prompt_country">Country</string>
+    <string name="prompt_city">City</string>
+    <string name="prompt_phone">Phone number</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_surname">Surname</string>
+    <string name="action_forgotpassword">Forgot password?</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="signin_with">Sign in with</string>
+    <string name="register_now">New here? Register now.</string>
+    <string name="username">USERNAME</string>
+    <string name="title_activity_login">SIGN IN</string>
+    <string name="title_activity_register">Registration</string>
+    <string name="categories">Categories</string>
+    <string name="facilities">Facilities</string>
+    <string name="drinks">Drinks</string>
+    <string name="continue_searching">Continue Searching</string>
+    <string name="go">GO!</string>
+    <string name="more_result">More result</string>
+    <string name="availablenow">Available now</string>
+    <string name="open_time">Open Time</string>
+    <string name="break_time">Break Time</string>
+    <string name="closed_days">Closed days</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="contact_information">Contact information</string>
+    <string name="additional_info">Additional Info</string>
+    <string name="address">Address</string>
+    <string name="confirm_desc">Thank you for registering on Eat360!
+        In order to complete your registration, please click the your registration, please click the confirmation link in the email that we have sent to you.
+        If you haven\'t received an email, please check your spam folder.</string>
+
+
+
+
+    <string name="title_select_autocomplete">Select keyword</string>
+    <string name="select_autocomplete">Please select keyword from autocomplete to get results.</string>
+
+    <string name="title_enter_keyword">Enter keyword</string>
+    <string name="body_enter_keyword">Please enter keyword for foods to search.</string>
+
+    <string name="qr_result">Scan results</string>
+    <string name="qr_scan">QR code scan</string>
+    <string name="alcoholdrinks">Alcohol drinks</string>
+    <string name="food_meal">Food meal</string>
+    <string name="update">UPDATE</string>
+    <string name="enable">ENABLE</string>
+    <string name="tag">Tag</string>
+    <string name="contain">Contain</string>
+    <string name="loading">Loading...</string>
+    <string name="nfc_tag">NFC tag</string>
+    <string name="menu_category_title">Main Dish</string>
+    <string name="Menu_underlined"><u>MENU</u></string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="log_out">Log out</string>
+    <string name="moreapps">More apps from </string>
+    <string name="search_hint_map">Search for places</string>
+    <string name="select_category">Select category</string>
+    <string name="select_server">Select server</string>
+    <string name="select_again">Please select again</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">Enable Location Service</string>
+    <string name="enable_location_detail">Please enable Location service to get current location.</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="gps_network_not_enabled">Your GPS seems to be disabled, the app need to enable it.</string>
+    <string name="confirm_quit">Are you sure to quit?</string>
+    <string name="title_activity_confirm">Thank you very much!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">This field should be longer than 3 chars</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password should be longer than 6 chars</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+
+
+    <!--<string name="version">Version</string>-->
+    <!--<string name="licenses">Licenses</string>-->
+    <!--<string name="search_near">Search near:</string>-->
+    <!--<string name="times">Open Time</string>-->
+    <!--<string name="open">open</string>-->
+
+    <string name="login_skip">Skip login</string>
+    <string name="register_skip">Skip register</string>
+
+</resources>

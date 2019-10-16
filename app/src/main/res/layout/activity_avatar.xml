@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_avatar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="th.co.apps360.eat360.activity.AvatarActivity">
+
+    <com.joooonho.SelectableRoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/avatar_prfile_image"
+        android:src="@drawable/profile_image"
+        android:background="@drawable/rounded_border_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        app:sriv_left_bottom_corner_radius="100dp"
+        app:sriv_left_top_corner_radius="100dp"
+        app:sriv_right_bottom_corner_radius="100dp"
+        app:sriv_right_top_corner_radius="100dp" />
+
+    <ProgressBar
+        android:id="@+id/avatar_progress_bar"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_below="@+id/avatar_prfile_image"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/avatar_progress_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/avatar_progress_bar"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:background="@color/black_transparent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/avatar_camera_button"
+            android:src="@drawable/camera"
+            android:padding="10dp"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/avatar_gallery_button"
+            android:src="@drawable/gallery"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/avatar_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|start"
+            android:src="@drawable/leftarrow_icon"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/avatar_logo"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/avatar_check"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/white_transparent"
+            android:src="@drawable/checked_white"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

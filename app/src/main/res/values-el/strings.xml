@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">Μια άλλη Τοποθεσία</string>
+    <string name="at">στο</string>
+    <string name="back">πίσω</string>
+    <string name="Currency">νόμισμα</string>
+    <string name="Description">περιγραφή</string>
+    <string name="Done">Έγινε</string>
+    <string name="filter_result">φίλτρο Αποτέλεσμα</string>
+    <string name="food_category">κατηγορία τροφίμων</string>
+    <string name="food_cuisine">κουζίνα τροφίμων</string>
+    <string name="food_ingredient">συστατικού τροφίμων</string>
+    <string name="food_name">Το όνομά τροφίμων</string>
+    <string name="go_to_menu">πηγαίνετε στο μενού</string>
+    <string name="Home_Page">Αρχική Σελίδα</string>
+    <string name="in">σε</string>
+    <string name="ingredients">συστατικά</string>
+    <string name="km_kilometer">km (χιλιόμετρα)</string>
+    <string name="language">γλώσσα</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">τοποθεσία</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">Χάρτης</string>
+    <string name="Menu">μενού</string>
+    <string name="mile">μίλι</string>
+    <string name="No_Search_Result">Δεν Αποτέλεσμα αναζήτησης</string>
+    <string name="Please_Try_again">Παρακαλώ προσπάθησε ξανά</string>
+    <string name="QR_Code_Search">QR Code Αναζήτηση</string>
+    <string name="Radius">ακτίνα</string>
+    <string name="Recommended">συνιστάται</string>
+    <string name="Restaurant">εστιατόριο</string>
+    <string name="restaurant_name">το όνομα του εστιατορίου</string>
+    <string name="restaurant_service">υπηρεσία εστιατόριο</string>
+    <string name="restaurant_type">τύπος εστιατορίου</string>
+    <string name="Search">Αναζήτηση</string>
+    <string name="Search_for">Ψάχνω για</string>
+    <string name="Search_Near">Αναζήτηση Κοντά</string>
+    <string name="Search_Result">Αποτέλεσμα αναζήτησης</string>
+    <string name="Select_Distance">Επιλέξτε Απόσταση</string>
+    <string name="Translate">μεταφράζω</string>
+    <string name="warning">προειδοποίηση</string>
+    <string name="around">γύρω</string>
+    <string name="error">σφάλμα</string>
+    <string name="food">φαγητό</string>
+    <string name="category">κατηγορία</string>
+    <string name="no">όχι</string>
+    <string name="problem">πρόβλημα</string>
+    <string name="cuisine">κουζίνα</string>
+    <string name="restaurant">εστιατόριο</string>
+    <string name="yes">ναι</string>
+    <string name="meal">γεύμα</string>
+
+    <string name="Connection_Problem">Πρόβλημα σύνδεσης.</string>
+    <string name="Connection_Problem_Detail">Η εφαρμογή δεν μπορεί να συνδεθεί με το διακομιστή. Παρακαλώ προσπάθησε ξανά.</string>
+    <string name="Getting_current_location">Να πάρει την τρέχουσα θέση</string>
+    <string name="Keyword">Λέξη-κλειδί</string>
+    <string name="Select_currency">Επιλέξτε νόμισμα</string>
+    <string name="Select_language">Επιλέξτε γλώσσα</string>
+    <string name="all_meal">όλα τα γεύματα</string>
+    <string name="cancel">ΆΚΥΡΟ</string>
+    <string name="cannot_connect_internet">Εφαρμογή δεν μπορεί να συνδεθεί στο Internet. Παρακαλώ ξαναπροσπαθήστε.</string>
+    <string name="ok">Εντάξει</string>
+
+
+
+    <string name="search_hint_food">Αναζήτηση για τα τρόφιμα</string>
+    <string name="search_hint_restaurant">Αναζήτηση για το εστιατόριο</string>
+    <string name="search_hint_menu">Αναζήτηση για το μενού</string>
+    <string name="prompt_email">Διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="prompt_country">Χώρα</string>
+    <string name="prompt_city">Πόλη</string>
+    <string name="prompt_phone">Τηλεφωνικό νούμερο</string>
+    <string name="prompt_name">Ονομα</string>
+    <string name="prompt_surname">Επώνυμο</string>
+    <string name="action_forgotpassword">Ξεχάσατε τον κωδικό;</string>
+    <string name="action_sign_up">Εγγραφείτε</string>
+    <string name="action_sign_in">Συνδεθείτε</string>
+    <string name="signin_with">Συνδεθείτε με</string>
+    <string name="register_now">ΝΕΟΣ εδω? Κάνε εγγραφή τώρα.</string>
+    <string name="username">όνομα χρήστη</string>
+    <string name="title_activity_login">ΣΥΝΔΕΘΕΙΤΕ</string>
+    <string name="title_activity_register">Εγγραφή</string>
+    <string name="categories">Κατηγορίες</string>
+    <string name="facilities">Εγκαταστάσεις</string>
+    <string name="drinks">Αναψυκτικά</string>
+    <string name="continue_searching">Συνέχεια Αναζήτηση</string>
+    <string name="go">ΠΗΓΑΙΝΩ!</string>
+    <string name="more_result">περισσότερα αποτέλεσμα</string>
+    <string name="availablenow">Διαθέσιμο τώρα</string>
+    <string name="open_time">Ανοιχτός χρόνος</string>
+    <string name="break_time">Διάλειμμα</string>
+    <string name="closed_days">κλειστά ημέρες</string>
+    <string name="e_mail_address">Διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+    <string name="contact_information">Στοιχεία επικοινωνίας</string>
+    <string name="additional_info">Πρόσθετες πληροφορίες</string>
+    <string name="address">Διεύθυνση</string>
+    <string name="confirm_desc">Σας ευχαριστούμε για την εγγραφή στο Eat360! Για να ολοκληρώσετε την εγγραφή σας, παρακαλώ κάντε κλικ την εγγραφή σας, παρακαλώ κάντε κλικ στο σύνδεσμο επιβεβαίωσης στο email που έχουμε στείλει σε εσάς. Αν δεν έχετε λάβει ένα μήνυμα ηλεκτρονικού ταχυδρομείου, ελέγξτε το φάκελο ανεπιθύμητης αλληλογραφίας σας.</string>
+    <string name="title_select_autocomplete">Επιλέξτε λέξη-κλειδί</string>
+    <string name="select_autocomplete">Επιλέξτε τη λέξη-κλειδί από την αυτόματη συμπλήρωση για να πάρει τα αποτελέσματα.</string>
+    <string name="title_enter_keyword">εισάγετε τη λέξη-κλειδί</string>
+    <string name="body_enter_keyword">Παρακαλούμε, εισάγετε λέξη-κλειδί για τα τρόφιμα για να ψάξετε.</string>
+    <string name="qr_result">αποτελέσματα σάρωσης</string>
+    <string name="qr_scan">κώδικα QR σάρωση</string>
+    <string name="alcoholdrinks">αλκοολούχα ποτά</string>
+    <string name="food_meal">γεύμα τροφίμων</string>
+    <string name="update">ΕΚΣΥΓΧΡΟΝΙΖΩ</string>
+    <string name="enable">επιτρέπω</string>
+    <string name="tag">Ετικέτα</string>
+    <string name="contain">Περιέχω</string>
+    <string name="loading">Φόρτωση...</string>
+    <string name="nfc_tag">ετικέτα NFC</string>
+    <string name="menu_category_title">Κυρίως πιάτο</string>
+    <string name="Menu_underlined"><u>ΜΕΝΟΥ</u></string>
+    <string name="help">Βοήθεια</string>
+    <string name="about">Σχετικά με</string>
+    <string name="log_out">Αποσυνδέση</string>
+    <string name="moreapps">Περισσότερες εφαρμογές από</string>
+    <string name="search_hint_map">Αναζήτηση για θέσεις</string>
+    <string name="select_category">Επιλέξτε Κατηγορία</string>
+    <string name="select_server">Επιλογή διακομιστή</string>
+    <string name="select_again">Παρακαλώ επιλέξτε ξανά</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">Ενεργοποίηση Τοποθεσία Υπηρεσίας</string>
+    <string name="enable_location_detail">Παρακαλούμε ενεργοποιήστε την υπηρεσία τοποθεσίας για να πάρει την τρέχουσα θέση.</string>
+    <string name="no_geocoder_available">Δεν υπάρχει διαθέσιμη geocoder</string>
+    <string name="fetch_address">φέρω διεύθυνση</string>
+    <string name="address_found">διεύθυνση βρέθηκαν</string>
+    <string name="no_address_found">Λυπούμαστε, αλλά δεν βρέθηκε διεύθυνση</string>
+    <string name="service_not_available">Συγγνώμη, η υπηρεσία δεν είναι διαθέσιμη</string>
+    <string name="no_location_data_provided">Δεν υπάρχουν δεδομένα θέσης</string>
+    <string name="invalid_lat_long_used">Μη έγκυρο γεωγραφικό πλάτος ή μήκος που χρησιμοποιείται</string>
+    <string name="gps_network_not_enabled">GPS σας φαίνεται να είναι απενεργοποιημένη, η εφαρμογή πρέπει να την ενεργοποιήσετε.</string>
+    <string name="confirm_quit">Είστε βέβαιοι να σταματήσουν το κάπνισμα;</string>
+    <string name="title_activity_confirm">Ευχαριστώ πολύ!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">Αυτό το πεδίο πρέπει να είναι μεγαλύτερη από 3 χαρακτήρες</string>
+    <string name="error_invalid_email">Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη</string>
+    <string name="error_invalid_password">Αυτός ο κωδικός πρόσβασης θα πρέπει να είναι μεγαλύτερη από 6 χαρακτήρες</string>
+    <string name="error_incorrect_password">Αυτός ο κωδικός πρόσβασης είναι λανθασμένος</string>
+    <string name="error_field_required">Αυτό το πεδίο είναι υποχρεωτικό</string>
+    <string name="permission_rationale">Τα δικαιώματα επαφές που απαιτούνται για την παροχή συμπληρώσεις email.</string>
+
+</resources>
+
+
+

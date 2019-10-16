@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">สถานที่</string>
+    <string name="at">ที่</string>
+    <string name="back">กลับ</string>
+    <string name="Currency">หน่วยเงิน</string>
+    <string name="Description">คำอธิบาย</string>
+    <string name="Done">ตกลง</string>
+    <string name="filter_result">ผลลัพธ์การกรองข้อมูล</string>
+    <string name="food_category">หมวดหมู่อาหาร</string>
+    <string name="food_cuisine">หมวดหมู่ร้านอาหาร</string>
+    <string name="food_ingredient">ส่วนผสมอาหาร</string>
+    <string name="food_name">ชื่ออาหาร</string>
+    <string name="go_to_menu">ไปที่เมนูอาหาร</string>
+    <string name="Home_Page">หน้าแรก</string>
+    <string name="in">ใน</string>
+    <string name="ingredients">ส่วนผสม</string>
+    <string name="km_kilometer">กม.(กิโลเมตร)</string>
+    <string name="language">ภาษา</string>
+    <string name="Latitude">ละติจูด</string>
+    <string name="Location">สถานที่</string>
+    <string name="Longitude">ลองจิจูด</string>
+    <string name="Map">แผนที่</string>
+    <string name="Menu">เมนู</string>
+    <string name="mile">ไมล์</string>
+    <string name="No_Search_Result">ไม่พบผลการค้นหา</string>
+    <string name="Please_Try_again">กรุณาลองอีกครั้ง</string>
+    <string name="QR_Code_Search">ค้นหาจาก QR CODE</string>
+    <string name="Radius">ขอบเขต</string>
+    <string name="Recommended">แนะนำ</string>
+    <string name="Restaurant">ร้านอาหาร</string>
+    <string name="restaurant_name">ชื่อร้านอาหาร</string>
+    <string name="restaurant_service">ประเภทบริการ</string>
+    <string name="restaurant_type">ประเภทร้านอาหาร</string>
+    <string name="Search">ค้นหา</string>
+    <string name="Search_for">ค้นหาสำหรับ</string>
+    <string name="Search_Near">ค้นหาในระยะ</string>
+    <string name="Search_Result">ผลลัพธ์การค้นหา</string>
+    <string name="Select_Distance">เลือกระยะทาง</string>
+    <string name="Translate">แปล</string>
+    <string name="warning">เตือน</string>
+    <string name="around">รอบๆ</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="food">อาหาร</string>
+    <string name="category">หมวดหมู่</string>
+    <string name="no">ไม่</string>
+    <string name="problem">ปัญหา</string>
+    <string name="cuisine">สัญชาติอาหาร</string>
+    <string name="restaurant">ร้านอาหาร</string>
+    <string name="yes">ใช่</string>
+    <string name="meal">มื้ออาหาร</string>
+
+    <string name="Connection_Problem">การเชื่อมต่อผิดพลาด</string>
+    <string name="Connection_Problem_Detail">แอปพลิเคชันไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ กรุณาลองอีกครั้ง</string>
+    <string name="Getting_current_location">กำลังค้นหาตำแหน่ง</string>
+    <string name="Keyword">คีย์เวิร์ด</string>
+    <string name="Select_currency">เลือกหน่วยเงิน</string>
+    <string name="Select_language">เลือกภาษา</string>
+    <string name="all_meal">ทุกหมวดหมู่อาหาร</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="cannot_connect_internet">แอปพลิเคชันไม่สามารถเชื่อมต่ออินเตอร์เน็ตได้ กรุณาลองอีกครั้ง</string>
+    <string name="ok">ตกลง</string>
+
+
+    <!--<string name="map_search">Map Search</string>-->
+    <!--<string name="open">เปิด</string>-->
+    <!--<string name="search_hint">ค้นหาเมนูอาหาร</string>-->
+    <!--<string name="No_Category">ไม่พบหมวดหมู่อาหาร</string>-->
+    <!--<string name="setting">ตั้งค่า</string>-->
+
+
+
+    <string name="search_hint_food">หาอาหาร</string>
+    <string name="search_hint_restaurant">ค้นหาร้านอาหาร</string>
+    <string name="search_hint_menu">ค้นหาเมนู</string>
+    <string name="prompt_email">ที่อยู่อีเมล</string>
+    <string name="prompt_country">ประเทศ</string>
+    <string name="prompt_city">เมือง</string>
+    <string name="prompt_phone">หมายเลขโทรศัพท์</string>
+    <string name="prompt_name">ชื่อ</string>
+    <string name="prompt_surname">นามสกุล</string>
+    <string name="action_forgotpassword">ลืมรหัสผ่าน?</string>
+    <string name="action_sign_up">ลงชื่อ</string>
+    <string name="action_sign_in">ลงชื่อเข้าใช้</string>
+    <string name="signin_with">เข้าสู่ระบบด้วย</string>
+    <string name="register_now">ใหม่ที่นี่? สมัครตอนนี้.</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="title_activity_login">ลงชื่อเข้าใช้</string>
+    <string name="title_activity_register">การลงทะเบียน</string>
+    <string name="categories">หมวดหมู่</string>
+    <string name="facilities">สิ่งอำนวยความสะดวก</string>
+    <string name="drinks">เครื่องดื่ม</string>
+    <string name="continue_searching">ดำเนินการค้นหา</string>
+    <string name="go">ไป!</string>
+    <string name="more_result">ผลเพิ่มเติม</string>
+    <string name="availablenow">ใช้ได้ในขณะนี้</string>
+    <string name="open_time">เวลาเปิด</string>
+    <string name="break_time">เวลาพัก</string>
+    <string name="closed_days">วันปิด</string>
+    <string name="e_mail_address">ที่อยู่อีเมล</string>
+    <string name="contact_information">ข้อมูลติดต่อ</string>
+    <string name="additional_info">ข้อมูลเพิ่มเติม</string>
+    <string name="address">ที่อยู่</string>
+    <string name="confirm_desc">ขอขอบคุณสำหรับการลงทะเบียนบน Eat360! เพื่อที่จะดำเนินการลงทะเบียนของคุณโปรดคลิกที่ลงทะเบียนของคุณ, โปรดคลิกที่ลิงค์ยืนยันในอีเมลที่เราได้ส่งไปให้คุณ หากคุณยังไม่ได้รับอีเมลโปรดตรวจสอบโฟลเดอร์สแปมของคุณ</string>
+    <string name="title_select_autocomplete">กรุณาเลือกจากรายการที่แนะนำ</string>
+    <string name="select_autocomplete">กรุณาเลือกจากรายการแนะนำอัตโนมัติที่ปรากฏ</string>
+    <string name="title_enter_keyword">ใส่คำค้นหา</string>
+    <string name="body_enter_keyword">โปรดป้อนคำหลักสำหรับอาหารที่จะค้นหา</string>
+    <string name="qr_result">ผลการสแกน</string>
+    <string name="qr_scan">QR โค้ดสแกน</string>
+    <string name="alcoholdrinks">เครื่องดื่มแอลกอฮอล์</string>
+    <string name="food_meal">มื้ออาหาร</string>
+    <string name="update">ปรับปรุง</string>
+    <string name="enable">ทำให้สามารถ</string>
+    <string name="tag">แท็ก</string>
+    <string name="contain">บรรจุ</string>
+    <string name="loading">กำลังโหลด ...</string>
+    <string name="nfc_tag">แท็ก NFC</string>
+    <string name="menu_category_title">อาหารจานหลัก</string>
+    <string name="Menu_underlined"><u>เมนู</u></string>
+    <string name="help">ช่วยด้วย</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="log_out">ออกจากระบบ</string>
+    <string name="moreapps">ปพลิเคชันอื่น ๆ จาก</string>
+    <string name="search_hint_map">เลือกสถานที่</string>
+    <string name="select_category">เลือกหมวดหมู่อาหาร</string>
+    <string name="select_server">เลือกเซิร์ฟเวอร์</string>
+    <string name="select_again">กรุณาเลือกอีกครั้ง</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">เปิดใช้บริการสถานที่ตั้ง</string>
+    <string name="enable_location_detail">กรุณาเปิดใช้บริการสถานที่ที่จะได้รับตำแหน่งปัจจุบัน</string>
+    <string name="no_geocoder_available">ไม่มี Geocoder ใช้ได้</string>
+    <string name="fetch_address">สามารถดึงข้อมูลที่อยู่</string>
+    <string name="address_found">พบที่อยู่</string>
+    <string name="no_address_found">ขออภัยที่อยู่ไม่พบ</string>
+    <string name="service_not_available">ขออภัยบริการไม่พร้อมใช้งาน</string>
+    <string name="no_location_data_provided">ไม่มีข้อมูลสถานที่ให้บริการ</string>
+    <string name="invalid_lat_long_used">เส้นรุ้งเส้นแวงที่ไม่ถูกต้องหรือใช้</string>
+    <string name="gps_network_not_enabled">จีพีเอสของคุณน่าจะปิดการใช้งานแอพพลิเคต้องเปิดใช้งาน</string>
+    <string name="confirm_quit">คุณแน่ใจว่าจะเลิก?</string>
+    <string name="title_activity_confirm">ขอบคุณมาก!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">ข้อมูลนี้ควรจะนานกว่า 3 ตัวอักษร</string>
+    <string name="error_invalid_email">ที่อยู่อีเมลนี้ไม่ถูกต้อง</string>
+    <string name="error_invalid_password">รหัสผ่านนี้ควรจะไม่เกิน 6 ตัวอักษร</string>
+    <string name="error_incorrect_password">รหัสผ่านนี้ไม่ถูกต้อง</string>
+    <string name="error_field_required">ฟิลด์นี้จะต้อง</string>
+    <string name="permission_rationale">สิทธิ์รายชื่อที่มีความจำเป็นสำหรับการให้สำเร็จอีเมล</string>
+
+</resources>
+
+
+

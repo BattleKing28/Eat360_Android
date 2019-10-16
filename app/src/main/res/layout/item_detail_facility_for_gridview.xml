@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/detail_facility_griditem_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/category_alcohol"
+        android:padding="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/detail_facility_griditem_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Facility 1"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

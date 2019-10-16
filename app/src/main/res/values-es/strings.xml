@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">Otro Lugar</string>
+    <string name="at">a</string>
+    <string name="back">Atrás</string>
+    <string name="Currency">moneda</string>
+    <string name="Description">Descripción</string>
+    <string name="Done">Hecho</string>
+    <string name="filter_result">Filtrar Resultado</string>
+    <string name="food_category">la categoría de alimentos</string>
+    <string name="food_cuisine">alimento cocina</string>
+    <string name="food_ingredient">ingrediente alimenticio</string>
+    <string name="food_name">nombre del alimento</string>
+    <string name="go_to_menu">ir al menú</string>
+    <string name="Home_Page">Página de inicio</string>
+    <string name="in">en</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="km_kilometer">km (kilómetros)</string>
+    <string name="language">Idioma</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">Localización</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">Mapa</string>
+    <string name="Menu">Menú</string>
+    <string name="mile">millas</string>
+    <string name="No_Search_Result">Sin Resultados de la búsqueda</string>
+    <string name="Please_Try_again">Por favor, intente de nuevo</string>
+    <string name="QR_Code_Search">Código QR Buscar</string>
+    <string name="Radius">Radio</string>
+    <string name="Recommended">Recomendado</string>
+    <string name="Restaurant">restaurante</string>
+    <string name="restaurant_name">nombre del restaurante</string>
+    <string name="restaurant_service">servicio de restaurante</string>
+    <string name="restaurant_type">tipo de restaurante</string>
+    <string name="Search">Buscar</string>
+    <string name="Search_for">Buscar</string>
+    <string name="Search_Near">Buscar Cerca</string>
+    <string name="Search_Result">Resultado de búsqueda</string>
+    <string name="Select_Distance">Seleccione Distancia</string>
+    <string name="Translate">traducir</string>
+    <string name="warning">advertencia</string>
+    <string name="around">alrededor</string>
+    <string name="error">error</string>
+    <string name="food">comida</string>
+    <string name="category">Categoría</string>
+    <string name="no">no</string>
+    <string name="problem">problema</string>
+    <string name="cuisine">Cocina</string>
+    <string name="restaurant">restaurante</string>
+    <string name="yes">sí</string>
+    <string name="meal">Comida</string>
+
+    <string name="Connection_Problem">Problema de conexión.</string>
+    <string name="Connection_Problem_Detail">La aplicación no se puede conectar al servidor. Por favor, vuelva a intentarlo.</string>
+    <string name="Getting_current_location">Conseguir ubicación actual</string>
+    <string name="Keyword">Palabra clave</string>
+    <string name="Select_currency">Seleccionar moneda</string>
+    <string name="Select_language">Seleccionar idioma</string>
+    <string name="all_meal">todas las comidas</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cannot_connect_internet">Aplicación no puede conectarse a internet. Por favor, inténtelo de nuevo.</string>
+    <string name="ok">Vale</string>
+
+
+
+    <string name="search_hint_food">Búsqueda de alimentos</string>
+    <string name="search_hint_restaurant">Buscar restaurante</string>
+    <string name="search_hint_menu">Buscar menú</string>
+    <string name="prompt_email">Dirección de correo electrónico</string>
+    <string name="prompt_country">País</string>
+    <string name="prompt_city">Ciudad</string>
+    <string name="prompt_phone">Número de teléfono</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_surname">Apellido</string>
+    <string name="action_forgotpassword">Se te olvidó tu contraseña?</string>
+    <string name="action_sign_up">Regístrate</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="signin_with">Inicia sesión con</string>
+    <string name="register_now">¿Nuevo aquí? Regístrate ahora.</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="title_activity_login">REGISTRARSE</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="categories">Categorías</string>
+    <string name="facilities">Instalaciones</string>
+    <string name="drinks">Bebidas</string>
+    <string name="continue_searching">Continuar la búsqueda</string>
+    <string name="go">¡IR!</string>
+    <string name="more_result">Mas resultados</string>
+    <string name="availablenow">Disponible ahora</string>
+    <string name="open_time">Tiempo abierto</string>
+    <string name="break_time">Descanso</string>
+    <string name="closed_days">Días cerrados</string>
+    <string name="e_mail_address">Dirección de correo electrónico</string>
+    <string name="contact_information">Información del contacto</string>
+    <string name="additional_info">Información adicional</string>
+    <string name="address">Dirección</string>
+    <string name="confirm_desc">Gracias por registrarte en Eat360! Para completar su registro, haga clic en su registro, haga clic en el enlace de confirmación en el correo electrónico que le enviamos. Si no ha recibido un correo electrónico, compruebe su carpeta de correo no deseado.</string>
+    <string name="title_select_autocomplete">Seleccionar palabra clave</string>
+    <string name="select_autocomplete">Por favor, seleccione la palabra clave de autocompletar para obtener resultados.</string>
+    <string name="title_enter_keyword">Inserte palabra clave</string>
+    <string name="body_enter_keyword">Introduzca la palabra clave para que los alimentos se busquen.</string>
+    <string name="qr_result">Resultados de escaneo</string>
+    <string name="qr_scan">Exploración de código QR</string>
+    <string name="alcoholdrinks">Bebidas alcohólicas</string>
+    <string name="food_meal">Comida alimento</string>
+    <string name="update">ACTUALIZAR</string>
+    <string name="enable">habilitar</string>
+    <string name="tag">Etiqueta</string>
+    <string name="contain">Contiene</string>
+    <string name="loading">Cargando...</string>
+    <string name="nfc_tag">Etiqueta NFC</string>
+    <string name="menu_category_title">Plato principal</string>
+    <string name="Menu_underlined"><u>MENÚ</u></string>
+    <string name="help">Ayuda</string>
+    <string name="about">Acerca de</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="moreapps">Más aplicaciones de</string>
+    <string name="search_hint_map">Buscar lugares</string>
+    <string name="select_category">Selecciona una categoría</string>
+    <string name="select_server">Seleccionar servidor</string>
+    <string name="select_again">Seleccione de nuevo</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">Habilitar servicio de ubicación</string>
+    <string name="enable_location_detail">Habilite el servicio de ubicación para obtener la ubicación actual.</string>
+    <string name="no_geocoder_available">No hay geocodificador disponible</string>
+    <string name="fetch_address">Dirección de búsqueda</string>
+    <string name="address_found">Dirección encontrada</string>
+    <string name="no_address_found">Lo sentimos, no se ha encontrado ninguna dirección</string>
+    <string name="service_not_available">Lo sentimos, el servicio no está disponible</string>
+    <string name="no_location_data_provided">No se han proporcionado datos de localización</string>
+    <string name="invalid_lat_long_used">Latitud o longitud no válida utilizada</string>
+    <string name="gps_network_not_enabled">Tu GPS parece estar deshabilitado, la aplicación necesita habilitarlo.</string>
+    <string name="confirm_quit">¿Está seguro de dejar de fumar?</string>
+    <string name="title_activity_confirm">¡Muchas gracias!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">Este campo debe tener más de 3 caracteres</string>
+    <string name="error_invalid_email">Esta dirección de correo electrónico no es válida.</string>
+    <string name="error_invalid_password">Esta contraseña debe tener más de 6 caracteres</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_field_required">este campo es requerido</string>
+    <string name="permission_rationale">Se necesitan permisos de contactos para proporcionar terminaciones de correo electrónico.</string>
+
+</resources>
+
+
+

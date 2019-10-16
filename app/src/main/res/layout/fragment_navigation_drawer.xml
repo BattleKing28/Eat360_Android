@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer"
+    android:layout_width="@dimen/navigation_drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:clickable="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/slide_menu_view"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <RelativeLayout
+                android:background="@color/grey_transparent"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:id="@+id/profile_container">
+
+                <com.joooonho.SelectableRoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/slide_avatar_image"
+                    android:src="@drawable/profile_image"
+                    android:padding="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    tools:ignore="ContentDescription"
+                    app:sriv_left_bottom_corner_radius="40dp"
+                    app:sriv_left_top_corner_radius="40dp"
+                    app:sriv_right_bottom_corner_radius="40dp"
+                    app:sriv_right_top_corner_radius="40dp" />
+
+                <ImageView
+                    android:id="@+id/slide_menu"
+                    android:src="@drawable/menu_popup"
+                    android:padding="10dp"
+                    android:visibility="invisible"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/slide_username_label"
+                    android:text="@string/username"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@+id/slide_avatar_image"
+                    android:layout_above="@+id/slide_email_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/slide_username_edit"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignTop="@+id/slide_username_label"
+                    android:layout_alignBottom="@+id/slide_username_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:inputType="textPersonName"
+                    android:hint="@string/username"
+                    android:visibility="invisible"
+                    android:layout_toLeftOf="@+id/slide_username_button"
+                    android:layout_toStartOf="@+id/slide_username_button" />
+
+                <Button
+                    android:id="@+id/slide_username_button"
+                    android:background="@drawable/check02"
+                    android:visibility="invisible"
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/slide_username_label"
+                    android:layout_alignBottom="@+id/slide_username_label"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/slide_email_image"
+                    android:src="@drawable/email"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/slide_email_label"
+                    android:text="@string/e_mail_address"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/slide_email_image"
+                    android:layout_toEndOf="@+id/slide_email_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/login_container"
+                android:visibility="visible"
+                android:background="@color/blue_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:background="@color/black_transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:id="@+id/slide_signin_button"
+                        android:text="@string/action_sign_in"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:background="@color/white"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:id="@+id/slide_signup_button"
+                        android:text="@string/action_sign_up"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/location_container"
+            style="@style/menu_drawer_style"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UseCompoundDrawables">
+
+            <ImageView
+                android:src="@drawable/search_map"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/slide_location_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/Location"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey" />
+
+        <LinearLayout
+            android:id="@+id/language_container"
+            android:paddingLeft="20dp"
+            style="@style/menu_drawer_style"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/slide_language_icon"
+                android:src="@drawable/lang_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/slide_language_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/language"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey" />
+
+        <LinearLayout
+            android:id="@+id/currency_container"
+            android:paddingLeft="20dp"
+            style="@style/menu_drawer_style"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UseCompoundDrawables">
+
+            <ImageView
+                android:src="@drawable/currency_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/slide_currency_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/Currency"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey" />
+
+        <LinearLayout
+            android:id="@+id/help_container"
+            style="@style/menu_drawer_style"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UseCompoundDrawables">
+
+            <ImageView
+                android:src="@drawable/help_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/slide_help_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/help"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey" />
+
+        <LinearLayout
+            android:id="@+id/about_container"
+            style="@style/menu_drawer_style"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UseCompoundDrawables">
+
+            <ImageView
+                android:src="@drawable/about_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/slide_about_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/about"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey" />
+
+        <LinearLayout
+            android:id="@+id/logout_container"
+            style="@style/menu_drawer_style"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UseCompoundDrawables">
+
+            <ImageView
+                android:src="@drawable/logout_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/slide_logout_label"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/log_out"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey" />
+
+        <LinearLayout
+            android:id="@+id/social_container"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            tools:ignore="RtlSymmetry">
+
+            <ImageView
+                android:id="@+id/slide_facebook_icon"
+                android:src="@drawable/fb2"
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/slide_linkedin_icon"
+                android:src="@drawable/li"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/slide_twitter_icon"
+                android:src="@drawable/tw"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/moreapps_container"
+            android:gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/slide_moreapps_prefix"
+                android:text="@string/moreapps"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/slide_moreapps_label"
+                android:text="@string/apps360"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slide_blur_view"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/white_bg_transparent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/white_bg_transparent"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@color/background_grey"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:id="@+id/slide_select_cancel"
+                    android:src="@drawable/close_btn"
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/slide_select_text"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/slide_select_ok"
+                    android:src="@drawable/check02"
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/slide_language_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ListView
+                android:id="@+id/slide_currency_list"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

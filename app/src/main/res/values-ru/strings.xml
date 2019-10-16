@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">Другое Местоположение</string>
+    <string name="at">в</string>
+    <string name="back">назад</string>
+    <string name="Currency">валюта</string>
+    <string name="Description">описание</string>
+    <string name="Done">Готово</string>
+    <string name="filter_result">Фильтр Результат</string>
+    <string name="food_category">Продовольствие Категория</string>
+    <string name="food_cuisine">еда кухня</string>
+    <string name="food_ingredient">пищевой ингредиент</string>
+    <string name="food_name">имя еда</string>
+    <string name="go_to_menu">перейти в меню</string>
+    <string name="Home_Page">Главная страница</string>
+    <string name="in">в</string>
+    <string name="ingredients">Ингредиенты</string>
+    <string name="km_kilometer">км (км)</string>
+    <string name="language">язык</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">расположение</string>
+    <string name="Longitude">долготы</string>
+    <string name="Map">карта</string>
+    <string name="Menu">меню</string>
+    <string name="mile">мили</string>
+    <string name="No_Search_Result">Нет Результат поиска</string>
+    <string name="Please_Try_again">Пожалуйста, попробуйте еще раз</string>
+    <string name="QR_Code_Search">QR Code Поиск</string>
+    <string name="Radius">радиус</string>
+    <string name="Recommended">рекомендуемый</string>
+    <string name="Restaurant">Ресторан</string>
+    <string name="restaurant_name">название ресторана</string>
+    <string name="restaurant_service">обслуживание в ресторане</string>
+    <string name="restaurant_type">ресторанного типа</string>
+    <string name="Search">поисковый</string>
+    <string name="Search_for">Искать</string>
+    <string name="Search_Near">Поиск Рядом</string>
+    <string name="Search_Result">Результат поиска</string>
+    <string name="Select_Distance">Выберите Расстояние</string>
+    <string name="Translate">перевести</string>
+    <string name="warning">предупреждение</string>
+    <string name="around">вокруг</string>
+    <string name="error">ошибка</string>
+    <string name="food">еда</string>
+    <string name="category">категория</string>
+    <string name="no">нет</string>
+    <string name="problem">проблема</string>
+    <string name="cuisine">кухня</string>
+    <string name="restaurant">ресторан</string>
+    <string name="yes">да</string>
+    <string name="meal">еда</string>
+
+    <string name="Connection_Problem">Проблема соединения.</string>
+    <string name="Connection_Problem_Detail">Приложение не может соединиться с сервером. Пожалуйста, попробуйте еще раз.</string>
+    <string name="Getting_current_location">Получение текущего местоположения</string>
+    <string name="Keyword">Ключевое слово</string>
+    <string name="Select_currency">Выбор валюты</string>
+    <string name="Select_language">Выбрать язык</string>
+    <string name="all_meal">Все блюда</string>
+    <string name="cancel">Отмена</string>
+    <string name="cannot_connect_internet">Приложение не удается подключиться к Интернету. Пожалуйста, попробуйте еще раз.</string>
+    <string name="ok">Хорошо</string>
+
+
+
+    <string name="search_hint_food">Поиск пищи</string>
+    <string name="search_hint_restaurant">Поиск ресторана</string>
+    <string name="search_hint_menu">Искать меню</string>
+    <string name="prompt_email">Адрес электронной почты</string>
+    <string name="prompt_country">Страна</string>
+    <string name="prompt_city">город</string>
+    <string name="prompt_phone">Номер телефона</string>
+    <string name="prompt_name">имя</string>
+    <string name="prompt_surname">Фамилия</string>
+    <string name="action_forgotpassword">Забыли пароль?</string>
+    <string name="action_sign_up">Зарегистрироваться</string>
+    <string name="action_sign_in">Войти в систему</string>
+    <string name="signin_with">Войти в систему с</string>
+    <string name="register_now">Новенький тут? Зарегистрируйтесь сейчас.</string>
+    <string name="username">имя пользователя</string>
+    <string name="title_activity_login">ВОЙТИ В СИСТЕМУ</string>
+    <string name="title_activity_register">Постановка на учет</string>
+    <string name="categories">категории</string>
+    <string name="facilities">сооружения</string>
+    <string name="drinks">напитки</string>
+    <string name="continue_searching">Продолжить поиск</string>
+    <string name="go">ИДТИ!</string>
+    <string name="more_result">Более результат</string>
+    <string name="availablenow">Доступен сейчас</string>
+    <string name="open_time">Время открытия</string>
+    <string name="break_time">Перерыв</string>
+    <string name="closed_days">Закрытые дни</string>
+    <string name="e_mail_address">Адрес электронной почты</string>
+    <string name="contact_information">Контактная информация</string>
+    <string name="additional_info">Дополнительная информация</string>
+    <string name="address">Адрес</string>
+    <string name="confirm_desc">Благодарим Вас за регистрацию на Eat360! Для завершения регистрации, пожалуйста, нажмите на регистрацию, пожалуйста, нажмите на ссылку для подтверждения в электронном письме, которое мы послали к вам. Если вы не получили по электронной почте, пожалуйста, проверьте папку со спамом.</string>
+    <string name="title_select_autocomplete">Выбор ключевых слов</string>
+    <string name="select_autocomplete">Выберите ключевое слово из автозаполнения, чтобы получить результаты.</string>
+    <string name="title_enter_keyword">Введите ключевое слово</string>
+    <string name="body_enter_keyword">Пожалуйста, введите ключевое слово для пищевых продуктов для поиска.</string>
+    <string name="qr_result">результаты сканирования</string>
+    <string name="qr_scan">код сканирования QR</string>
+    <string name="alcoholdrinks">Алкогольные напитки</string>
+    <string name="food_meal">Пищевая мука</string>
+    <string name="update">ОБНОВИТЬ</string>
+    <string name="enable">включить</string>
+    <string name="tag">Тег</string>
+    <string name="contain">содержать</string>
+    <string name="loading">Loading...</string>
+    <string name="nfc_tag">NFC теги</string>
+    <string name="menu_category_title">Главное блюдо</string>
+    <string name="Menu_underlined"><u>МЕНЮ</u></string>
+    <string name="help">Помогите</string>
+    <string name="about">Около</string>
+    <string name="log_out">Выйти</string>
+    <string name="moreapps">Другие приложения от</string>
+    <string name="search_hint_map">Поиск мест</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="select_server">Выберите сервер</string>
+    <string name="select_again">Пожалуйста, выберите снова</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">Включить Место службы</string>
+    <string name="enable_location_detail">Пожалуйста, включите пункт технического обслуживания, чтобы получить текущее местоположение.</string>
+    <string name="no_geocoder_available">Нет Геокодер доступен</string>
+    <string name="fetch_address">Fetch адрес</string>
+    <string name="address_found">Адрес найдено</string>
+    <string name="no_address_found">К сожалению, адрес не найден</string>
+    <string name="service_not_available">К сожалению, данная услуга не доступна</string>
+    <string name="no_location_data_provided">Нет данных о местоположении, предоставляемые</string>
+    <string name="invalid_lat_long_used">Недопустимая широта или долгота используется</string>
+    <string name="gps_network_not_enabled">Ваш GPS, кажется, быть отключены, приложение необходимо включить его.</string>
+    <string name="confirm_quit">Вы уверены, что бросить?</string>
+    <string name="title_activity_confirm">Большое спасибо!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">Это поле должно быть длиннее 3 символов</string>
+    <string name="error_invalid_email">Этот адрес электронной почты является недействительным</string>
+    <string name="error_invalid_password">Этот пароль должен быть длиннее 6 символов</string>
+    <string name="error_incorrect_password">Этот неверный пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+    <string name="permission_rationale">Контакты разрешения необходимы для обеспечения электронной почты доработок.</string>
+
+</resources>
+
+
+

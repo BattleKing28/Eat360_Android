@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "black">#000000</color>
+    <color name = "red">#FA5858</color>
+    <color name = "blue">#0189ca</color>
+    <color name = "light_blue">#ff5eaacc</color>
+    <color name = "blue_transparent">#772798CC</color>
+
+    <color name = "light_blue_transparent">#642db6f1</color>
+
+    <color name = "white">#ffffff</color>
+    <color name = "grey">#737171</color>
+    <color name = "grey_icon">#cccccc</color>
+    <color name = "dark_text">#333333</color>
+    <color name = "dark_title">#1f1f1f</color>
+    <color name = "white_transparent">#00FFFFFF</color>
+    <color name = "grey_transparent">#EBEBEB</color>
+    <color name = "black_transparent">#99000000</color>
+    <color name = "white_bg_transparent">#aaFFFFFF</color>
+    <color name = "background_home">#111111</color>
+    <color name = "background_grey">#BDBDBD</color>
+
+    <color name="refresh_progress_1">#e91e63</color>
+    <color name="refresh_progress_2">#ff4fac36</color>
+    <color name="refresh_progress_3">#3f51b5</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/rest_menu_category_icon"
+        android:src="@drawable/category_alcohol"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        tools:ignore="ContentDescription"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/rest_menu_category_title"
+        android:text="@string/menu_category_title"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textStyle="bold" />
+
+    <ImageView android:id="@+id/rest_menu_arrow_icon"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/selector_arrow_down"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

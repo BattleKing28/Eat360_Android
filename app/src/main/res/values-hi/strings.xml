@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">एक अन्य स्थान</string>
+    <string name="at">पर</string>
+    <string name="back">वापस</string>
+    <string name="Currency">मुद्रा</string>
+    <string name="Description">विवरण</string>
+    <string name="Done">डन</string>
+    <string name="filter_result">फ़िल्टर परिणाम</string>
+    <string name="food_category">खाद्य श्रेणी</string>
+    <string name="food_cuisine">खाद्य व्यंजनों</string>
+    <string name="food_ingredient">खाद्य पदार्थ</string>
+    <string name="food_name">भोजन नाम</string>
+    <string name="go_to_menu">मेनू में जाना</string>
+    <string name="Home_Page">होम पेज</string>
+    <string name="in">में</string>
+    <string name="ingredients">सामग्री</string>
+    <string name="km_kilometer">किमी (किलोमीटर)</string>
+    <string name="language">भाषा</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">स्थान</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">नक्शा</string>
+    <string name="Menu">मेन्यू</string>
+    <string name="mile">मील</string>
+    <string name="No_Search_Result">कोई खोज परिणाम</string>
+    <string name="Please_Try_again">कृपया पुन: प्रयास करें</string>
+    <string name="QR_Code_Search">क्यूआर कोड खोज</string>
+    <string name="Radius">त्रिज्या</string>
+    <string name="Recommended">अनुशंसित</string>
+    <string name="Restaurant">रेस्टोरेंट</string>
+    <string name="restaurant_name">रेस्तरां का नाम</string>
+    <string name="restaurant_service">रेस्तरां सेवा</string>
+    <string name="restaurant_type">रेस्तरां के प्रकार</string>
+    <string name="Search">खोज</string>
+    <string name="Search_for">निम्न को खोजें</string>
+    <string name="Search_Near">खोजें पास</string>
+    <string name="Search_Result">खोज का परिणाम</string>
+    <string name="Select_Distance">चुनें दूरी</string>
+    <string name="Translate">अनुवाद करना</string>
+    <string name="warning">चेतावनी</string>
+    <string name="around">चारों ओर</string>
+    <string name="error">एरर</string>
+    <string name="food">भोजन</string>
+    <string name="category">श्रेणी</string>
+    <string name="no">नहीं</string>
+    <string name="problem">समस्या</string>
+    <string name="cuisine">भोजन</string>
+    <string name="restaurant">भोजनालय</string>
+    <string name="yes">हाँ</string>
+    <string name="meal">भोजन</string>
+
+    <string name="Connection_Problem">कनेक्शन समस्या।</string>
+    <string name="Connection_Problem_Detail">आवेदन सर्वर से कनेक्ट नहीं कर सकते हैं। कृपया पुन: प्रयास करें।</string>
+    <string name="Getting_current_location">वर्तमान स्थान प्राप्त हो रही है</string>
+    <string name="Keyword">खोजशब्द</string>
+    <string name="Select_currency">मुद्रा का चयन करें</string>
+    <string name="Select_language">भाषा का चयन करें</string>
+    <string name="all_meal">सभी भोजन</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="cannot_connect_internet">अनुप्रयोग इंटरनेट से कनेक्ट नहीं कर सकता। कृपया पुन: प्रयास करें।</string>
+    <string name="ok">ठीक है</string>
+
+
+
+    <string name="search_hint_food">भोजन के लिए खोज</string>
+    <string name="search_hint_restaurant">रेस्तरां के लिए खोजें</string>
+    <string name="search_hint_menu">मेनू के लिए खोजें</string>
+    <string name="prompt_email">ईमेल पता</string>
+    <string name="prompt_country">देश</string>
+    <string name="prompt_city">शहर</string>
+    <string name="prompt_phone">फ़ोन नंबर</string>
+    <string name="prompt_name">नाम</string>
+    <string name="prompt_surname">उपनाम</string>
+    <string name="action_forgotpassword">पासवर्ड भूल गए?</string>
+    <string name="action_sign_up">साइन अप करें</string>
+    <string name="action_sign_in">साइन इन करें</string>
+    <string name="signin_with">के साथ साइन इन करें</string>
+    <string name="register_now">यहाँ नये? अभी पंजीकरण करें।</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="title_activity_login">साइन इन करें</string>
+    <string name="title_activity_register">पंजीकरण</string>
+    <string name="categories">श्रेणियाँ</string>
+    <string name="facilities">सुविधाएं</string>
+    <string name="drinks">पेय</string>
+    <string name="continue_searching">खोज जारी</string>
+    <string name="go">चले जाओ!</string>
+    <string name="more_result">अधिक परिणाम</string>
+    <string name="availablenow">अब उपलब्ध है</string>
+    <string name="open_time">खुला समय</string>
+    <string name="break_time">विराम समय</string>
+    <string name="closed_days">बंद किया गया दिन</string>
+    <string name="e_mail_address">ईमेल पता</string>
+    <string name="contact_information">संपर्क जानकारी</string>
+    <string name="additional_info">अतिरिक्त जानकारी</string>
+    <string name="address">पता</string>
+    <string name="confirm_desc">Eat360 पर पंजीकरण के लिए धन्यवाद! अपना पंजीकरण पूरा करने के क्रम में, अपना पंजीकरण क्लिक करें, ईमेल है कि हम आप के लिए भेज दिया है में पुष्टि लिंक क्लिक करें। आपको एक ईमेल प्राप्त नहीं हुआ है, अपने स्पैम फ़ोल्डर की जाँच करें।</string>
+    <string name="title_select_autocomplete">कीवर्ड का चयन</string>
+    <string name="select_autocomplete">कृपया परिणाम प्राप्त करने के लिए स्वत: पूर्ण से कीवर्ड का चयन करें।</string>
+    <string name="title_enter_keyword">कुंजीशब्द दर्ज करें</string>
+    <string name="body_enter_keyword">खाद्य पदार्थों की खोज करने के लिए कीवर्ड दर्ज करें।</string>
+    <string name="qr_result">परिणाम स्कैन करें</string>
+    <string name="qr_scan">क्यूआर कोड स्कैन</string>
+    <string name="alcoholdrinks">अल्कोहल पेय</string>
+    <string name="food_meal">खाद्य पदार्थ भोजन</string>
+    <string name="update">अद्यतन</string>
+    <string name="enable">सक्षम</string>
+    <string name="tag">टैग</string>
+    <string name="contain">होते हैं</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="nfc_tag">एनएफसी टैग</string>
+    <string name="menu_category_title">मुख्य पकवान</string>
+    <string name="Menu_underlined"><u>मेन्यू</u></string>
+    <string name="help">मदद</string>
+    <string name="about">के बारे में</string>
+    <string name="log_out">लोग आउट</string>
+    <string name="moreapps">से अधिक क्षुधा</string>
+    <string name="search_hint_map">स्थानों के लिए खोजें</string>
+    <string name="select_category">श्रेणी का चयन करें</string>
+    <string name="select_server">सर्वर का चयन करें</string>
+    <string name="select_again">फिर से चयन करें</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">स्थान सेवा को सक्षम</string>
+    <string name="enable_location_detail">वर्तमान स्थान पाने के लिए स्थान सेवा सक्षम करें।</string>
+    <string name="no_geocoder_available">कोई जियोकोडर उपलब्ध</string>
+    <string name="fetch_address">पता लायें</string>
+    <string name="address_found">पता पाया</string>
+    <string name="no_address_found">क्षमा करें, कोई पता मिल गया</string>
+    <string name="service_not_available">क्षमा करें, सेवा उपलब्ध नहीं है</string>
+    <string name="no_location_data_provided">बशर्ते कोई स्थान डेटा</string>
+    <string name="invalid_lat_long_used">अवैध अक्षांश देशांतर या इस्तेमाल किया</string>
+    <string name="gps_network_not_enabled">अपने जीपीएस एप्लिकेशन इसे सक्षम करने की जरूरत है, अक्षम होने लगता है।</string>
+    <string name="confirm_quit">आप छोड़ने के लिए सुनिश्चित कर रहे हैं?</string>
+    <string name="title_activity_confirm">आपका बहुत बहुत धन्यवाद!</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">यह क्षेत्र अब से 3 घर का काम होना चाहिए</string>
+    <string name="error_invalid_email">यह ईमेल पता अमान्य है</string>
+    <string name="error_invalid_password">यह पासवर्ड अब से 6 घर का काम होना चाहिए</string>
+    <string name="error_incorrect_password">यह पासवर्ड गलत है</string>
+    <string name="error_field_required">यह फ़ील्ड आवश्यक है</string>
+    <string name="permission_rationale">संपर्क अनुमतियों को ईमेल प्राप्तियां उपलब्ध कराने के लिए आवश्यक हैं।</string>
+
+</resources>
+
+
+

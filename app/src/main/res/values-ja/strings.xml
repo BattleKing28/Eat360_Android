@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="another_location">別の場所</string>
+    <string name="at">に</string>
+    <string name="back">バック</string>
+    <string name="Currency">カレンシー</string>
+    <string name="Description">説明</string>
+    <string name="Done">完了</string>
+    <string name="filter_result">フィルタ結果</string>
+    <string name="food_category">食品カテゴリ</string>
+    <string name="food_cuisine">食品料理</string>
+    <string name="food_ingredient">食品成分</string>
+    <string name="food_name">食品名</string>
+    <string name="go_to_menu">メニューに移動</string>
+    <string name="Home_Page">ホームページ</string>
+    <string name="in">で</string>
+    <string name="ingredients">成分</string>
+    <string name="km_kilometer">キロ（キロ）</string>
+    <string name="language">言語</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Location">場所</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Map">マップ</string>
+    <string name="Menu">メニュー</string>
+    <string name="mile">マイル</string>
+    <string name="No_Search_Result">いいえ検索結果ません</string>
+    <string name="Please_Try_again">、もう一度試してください</string>
+    <string name="QR_Code_Search">QRコードを検索します</string>
+    <string name="Radius">半径</string>
+    <string name="Recommended">おすすめ</string>
+    <string name="Restaurant">レストラン</string>
+    <string name="restaurant_name">レストラン名</string>
+    <string name="restaurant_service">レストランサービス</string>
+    <string name="restaurant_type">レストランの種類</string>
+    <string name="Search">検索</string>
+    <string name="Search_for">検索する</string>
+    <string name="Search_Near">検索近く</string>
+    <string name="Search_Result">検索の結果</string>
+    <string name="Select_Distance">選択距離</string>
+    <string name="Translate">変換します</string>
+    <string name="warning">警告</string>
+    <string name="around">周り</string>
+    <string name="error">エラー</string>
+    <string name="food">食品</string>
+    <string name="category">カテゴリー</string>
+    <string name="no">いいえ</string>
+    <string name="problem">問題</string>
+    <string name="cuisine">料理</string>
+    <string name="restaurant">レストラン</string>
+    <string name="yes">はい</string>
+    <string name="meal">食事</string>
+
+    <string name="Connection_Problem">接続の問題。</string>
+    <string name="Connection_Problem_Detail">アプリケーションがサーバーに接続できません。もう一度やり直してください。</string>
+    <string name="Getting_current_location">現在の位置を取得します</string>
+    <string name="Keyword">キーワード</string>
+    <string name="Select_currency">通貨を選択します。</string>
+    <string name="Select_language">言語の選択</string>
+    <string name="all_meal">すべての食事</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cannot_connect_internet">アプリケーションは、インターネットに接続できません。もう一度やり直してください。</string>
+    <string name="ok">わかりました</string>
+
+
+
+    <string name="search_hint_food">食べ物を探す</string>
+    <string name="search_hint_restaurant">レストランを検索する</string>
+    <string name="search_hint_menu">メニューを検索する</string>
+    <string name="prompt_email">電子メールアドレス</string>
+    <string name="prompt_country">国</string>
+    <string name="prompt_city">シティ</string>
+    <string name="prompt_phone">電話番号</string>
+    <string name="prompt_name">名</string>
+    <string name="prompt_surname">姓</string>
+    <string name="action_forgotpassword">パスワードをお忘れですか？</string>
+    <string name="action_sign_up">サインアップ</string>
+    <string name="action_sign_in">サインイン</string>
+    <string name="signin_with">ログインする</string>
+    <string name="register_now">ここに新しい？今すぐ登録。</string>
+    <string name="username">ユーザー名</string>
+    <string name="title_activity_login">サインイン</string>
+    <string name="title_activity_register">登録</string>
+    <string name="categories">カテゴリー</string>
+    <string name="facilities">施設</string>
+    <string name="drinks">ドリンク</string>
+    <string name="continue_searching">検索を続行する</string>
+    <string name="go">GO!</string>
+    <string name="more_result">より多くの結果</string>
+    <string name="availablenow">今すぐ利用可能</string>
+    <string name="open_time">オープンタイム</string>
+    <string name="break_time">休憩時間</string>
+    <string name="closed_days">休館日</string>
+    <string name="e_mail_address">電子メールアドレス</string>
+    <string name="contact_information">連絡先</string>
+    <string name="additional_info">追加情報</string>
+    <string name="address">住所</string>
+    <string name="confirm_desc">Eat360に登録していただきありがとうございます！登録を完了するには、あなたの登録をクリックしてください、我々があなたに送った電子メールの確認リンクをクリックしてください。メールが届かない場合は、迷惑メールフォルダを確認してください。</string>
+    <string name="title_select_autocomplete">キーワードを選択</string>
+    <string name="select_autocomplete">結果を得るには、オートコンプリートからキーワードを選択してください。</string>
+    <string name="title_enter_keyword">キーワードを入力</string>
+    <string name="body_enter_keyword">検索する食品のキーワードを入力してください。</string>
+    <string name="qr_result">スキャン結果</string>
+    <string name="qr_scan">QRコードスキャン</string>
+    <string name="alcoholdrinks">アルコール飲料</string>
+    <string name="food_meal">食べ物食事</string>
+    <string name="update">更新</string>
+    <string name="enable">可能にする</string>
+    <string name="tag">タグ</string>
+    <string name="contain">含む</string>
+    <string name="loading">読み込んでいます...</string>
+    <string name="nfc_tag">NFCタグ</string>
+    <string name="menu_category_title">メインディッシュ</string>
+    <string name="Menu_underlined"><u>メニュー</u></string>
+    <string name="help">助けて</string>
+    <string name="about">約</string>
+    <string name="log_out">ログアウト</string>
+    <string name="moreapps">より多くのアプリを</string>
+    <string name="search_hint_map">場所を検索する</string>
+    <string name="select_category">カテゴリを選んでください</string>
+    <string name="select_server">サーバーの選択</string>
+    <string name="select_again">もう一度選択してください</string>
+    <string name="google_play_service">Google Play Services</string>
+    <string name="enable_location_title">位置情報サービスを有効にする</string>
+    <string name="enable_location_detail">現在地を取得するには、ロケーションサービスを有効にしてください。</string>
+    <string name="no_geocoder_available">使用可能なジオコーダーがありません</string>
+    <string name="fetch_address">アドレスを取得する</string>
+    <string name="address_found">住所が見つかりました</string>
+    <string name="no_address_found">申し訳ありませんが、アドレスが見つかりません</string>
+    <string name="service_not_available">申し訳ありませんが、サービスは利用できません</string>
+    <string name="no_location_data_provided">場所データが提供されていません</string>
+    <string name="invalid_lat_long_used">無効な緯度または経度</string>
+    <string name="gps_network_not_enabled">あなたのGPSは無効になっているようだが、アプリはそれを有効にする必要がある。</string>
+    <string name="confirm_quit">あなたは本当に辞めるのですか？</string>
+    <string name="title_activity_confirm">どうもありがとうございました！</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">このフィールドは3文字より長くする必要があります</string>
+    <string name="error_invalid_email">このメールアドレスは無効です</string>
+    <string name="error_invalid_password">このパスワードは6文字より長くする必要があります</string>
+    <string name="error_incorrect_password">このパスワードは間違っています</string>
+    <string name="error_field_required">この項目は必須です</string>
+    <string name="permission_rationale">メールの補完を提供するには、連絡先権限が必要です。</string>
+
+</resources>
+
+
+

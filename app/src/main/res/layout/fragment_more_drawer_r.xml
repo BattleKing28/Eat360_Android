@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r_more_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_facilities_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_cuisines_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_times_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

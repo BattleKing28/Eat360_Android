@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "766692983724",
+    "firebase_url": "https://eat360-159113.firebaseio.com",
+    "project_id": "eat360-159113",
+    "storage_bucket": "eat360-159113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766692983724:android:ed2fe342e95a1510",
+        "android_client_info": {
+          "package_name": "th.co.apps360.eat360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766692983724-spedgpv6mcpls7qr0qtvfho9linltobf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "766692983724-rmffrs47gskdig3nd6vhgi4u0ul0m53i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.co.apps360.eat360",
+            "certificate_hash": "d459d64edf5a07d04763d18abf3c2b294331400e"
+          }
+        },
+        {
+          "client_id": "766692983724-gtfjqjjaqu2ca7oe042p3hiurr0gi0bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnLMhdSCMLr01Jcvt3CnrZlUmMtldARM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766692983724-spedgpv6mcpls7qr0qtvfho9linltobf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

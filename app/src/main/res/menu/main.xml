@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="th.co.apps360.eat360.activity.MainActivity">
+    <!--<item
+        android:id="@+id/action_settings"
+        android:layout_gravity="center_horizontal"
+        android:icon="@drawable/logo"
+        android:orderInCategory="0"
+        android:title="@string/action_settings" />-->
+
+</menu>

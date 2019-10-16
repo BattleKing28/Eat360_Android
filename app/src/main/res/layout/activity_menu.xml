@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background"
+            android:orientation="vertical" />
+
+        <!--
+                <com.sothree.slidinguppanel.SlidingUpPanelLayout
+                    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/sliding_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/menu_container"
+                    android:gravity="bottom"
+                    sothree:umanoDragView="@+id/dragView"
+                    sothree:umanoOverlay="true"
+                    sothree:umanoPanelHeight="0dp"
+                    sothree:umanoScrollableView="@+id/scroll_view"
+                    sothree:umanoShadowHeight="0dp">
+
+                    <LinearLayout
+                        android:id="@+id/dragView"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@color/white"
+                        android:clickable="false"
+                        android:focusable="true"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <ScrollView
+                            android:id="@+id/scroll_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="UselessParent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <th.co.apps360.eat360.CustomView.ExpandableHeightGridView
+                                    android:id="@+id/grid_view"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:columnWidth="70dp"
+                                    android:gravity="center"
+                                    android:horizontalSpacing="5dp"
+                                    android:numColumns="auto_fit"
+                                    android:verticalSpacing="5dp" />
+
+                                <TextView
+                                    android:id="@+id/no_result"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/No_Category"
+                                    android:textSize="18sp"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+-->
+
+        <!--
+                <LinearLayout
+                    android:id="@+id/menu_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/food"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/drawable_background_menubutton"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/food_hover"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:id="@+id/drink"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/drawable_background_menubutton"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/drink"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageButton
+                        android:id="@+id/more"
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/drawable_background_menubutton"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/more_button"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+        -->
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/navigation_drawer"
+        android:name="th.co.apps360.eat360.fragment.NavigationDrawerFragment"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+    <fragment
+        android:id="@+id/more_menu_drawer"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="th.co.apps360.eat360.fragment.MoreMenuDrawerFragment"
+        tools:layout="@layout/fragment_more_menu_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

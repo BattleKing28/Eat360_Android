@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Eat360</string>
+    <string name="km1">1</string>
+    <string name="km5">5</string>
+    <string name="km100">100</string>
+    <string name="km">km</string>
+    <string name="update_playservice">This application requires an update for Google Play Services. After updated Google Play Services please restart your android phone.</string>
+
+    <string name="app_id_debug">716979495097886</string>
+    <string name="app_id_release">136040346738885</string>
+    <string name="googlemap_geocoding_apikey">AIzaSyBHovo-vIo-xyZ46F_S4gcFf3L4vF4CacM</string>
+    <string name="server_client_id">244438615534-5ot7dfivqdsii5767gmbolffgm7t32v6.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1213434378705139</string>
+    <string name="fb_login_protocol_scheme">fb1213434378705139</string>
+
+    <string-array name="servers">
+        <item >eat360app.com</item>
+        <item >eat360app.com.au</item>
+        <item >eat360app.co.th</item>
+    </string-array>
+
+    <string name="eat360appcom">EAT360APP.COM</string>
+    <string name="helloeat360appcom">hello@eat360app.com</string>
+    <string name="eat360phone">+61 420 360360</string>
+
+    <string name="apps360"><u>Apps360</u></string>
+    <string name="prompt_password">*******</string>
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+
+    <!--About-->
+    <string name="about_time_title">You get new customers + more time in your day.</string>
+    <string name="about_time_detail">As an owner, time is your most precious commodity.
+        We expertly plan and customize your marketing strategy so that every dollar is put to maximum use.
+        Then we execute the applicatio for you.</string>
+    <string name="about_focused_title">CUSTOMER FOCUSED</string>
+    <string name="about_focused_detail">Our strategies are people-oriented,  based on building relationships with honesty, integrity and respect.</string>
+    <string name="about_budget_title">BUDGET FRIENDLY</string>
+    <string name="about_budget_detail">We meet your current needs and level of need with plans that grow right along with your cash flow.</string>
+    <string name="about_partner_title">YOUR TRUSTED PARTNER</string>
+    <string name="about_partner_detail">We take pride in exceeding your expectations and providing support through quality, timely updates.</string>
+    <string name="confirm_support_email"><u>info@restaurant.co</u></string>
+
+</resources>
